@@ -2,10 +2,10 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/atom">
- <link href="{{- site.url -}}{{- site.baseurl -}}/blog-optimization-fantasy/feed.xml" rel="self" type="application/atom+xml"/>
- <link href="{{- site.url -}}{{- site.baseurl -}}/blog-optimization-fantasy/" rel="alternate" type="text/html"/>
+ <link href="{{- site.url -}}{{- site.baseurl -}}/blog-competitions/feed.xml" rel="self" type="application/atom+xml"/>
+ <link href="{{- site.url -}}{{- site.baseurl -}}/blog-competitions/" rel="alternate" type="text/html"/>
  <updated> {{- site.time | date_to_xmlschema -}} </updated>
- <id>{{- site.url -}}{{- site.baseurl -}}/blog-optimization-fantasy/feed.xml</id>
+ <id>{{- site.url -}}{{- site.baseurl -}}/blog-competitions/feed.xml</id>
  <title>{{site.title}} Optimization Fantasy</title>
  <subtitle>{{- site.description | strip_html | lstrip | rstrip -}}</subtitle>
   <author>
@@ -15,7 +15,7 @@
         {{- site.title -}}      
     {%- endif -%}</name>
   </author>
-  {%- for post in site.posts limit: 20 -%}{%- if post.category=="optimization-fantasy" -%}
+  {%- for post in site.posts limit: 20 -%}{%- if post.category=="competitions" -%}
   <entry>
     <title>{{- post.title -}}</title>
     <id>{{- site.url -}}{{- site.baseurl -}}{{- post.url -}}</id>
