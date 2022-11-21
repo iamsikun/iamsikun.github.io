@@ -32,7 +32,7 @@ I am a Ph.D. student in [Supply Chain, Operations, and Technology](https://olin.
 
 ## Work in Progress
 * *Data-driven wealth management*, with Ali Hirsa, Miao Wang, Federico Klinkert, and Satyan Malhotra, in cooperation with [ASK2.ai](https://www.linkedin.com/company/ask2-ai/)
-  * ExplainableMutual Fund Performance Forecast using Alternative Data in a Nonstationary Environment
+  * Explainable Mutual Fund Performance Forecast using Alternative Data in a Nonstationary Environment
   * Financial Market Regime Detection
 * *Upgrading with random lead time on asset selling platforms*, with Puping Jiang
 
