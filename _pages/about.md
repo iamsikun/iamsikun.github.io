@@ -35,6 +35,7 @@ I am a Ph.D. student in [Supply Chain, Operations, and Technology](https://olin.
   * Explainable Mutual Fund Performance Forecast using Alternative Data in a Nonstationary Environment
   * Financial Market Regime Detection
 * *Upgrading with random lead time on asset selling platforms*, with Puping Jiang
+* *Data-driven mechanism design and the value of data*
 
 ## Presentations
 * 2022 INFORMS Annual Meeting: Data-driven security selection for wealth management
