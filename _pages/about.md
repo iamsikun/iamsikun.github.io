@@ -38,6 +38,7 @@ I am a Ph.D. student in [Supply Chain, Operations, and Technology](https://olin.
 * *Data-driven mechanism design and the value of data*
 
 ## Presentations
+* 2023 POMS Annual Conference (Scheduled): Data-Driven Mechanism Design and the Value of Data
 * 2022 INFORMS Annual Meeting: Data-driven security selection for wealth management
 * 2021 INFORMS Annual Meeting: Verifying global optimality of candidate solutions to polynomial optimization problems using a determinant relaxation hierarchy 
 
