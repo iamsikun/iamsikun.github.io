@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a Ph.D. student in [Supply Chain, Operations, and Technology](https://olin.wustl.edu/EN-US/academic-programs/PhD/Pages/PhdDetail.aspx?username=sikun) at Olin Business School, Washington University in St. Louis. My research interest is in data-driven decision making, optimization, learning algorithms, as well as their applications in operations and finance. 
+I am a Ph.D. student in [Supply Chain, Operations, and Technology](https://olin.wustl.edu/EN-US/academic-programs/PhD/Pages/PhdDetail.aspx?username=sikun) at Olin Business School, Washington University in St. Louis. My research interest is in data-driven decision-making, optimization, learning algorithms, and their applications in operations, marketing, and finance.
 
 ### Contacts
 * sikun [at] wustl [dot] edu
@@ -27,7 +27,7 @@ I am a Ph.D. student in [Supply Chain, Operations, and Technology](https://olin.
   * B.S. in Industrial Engineering
 
 ## Publications
-1. Yilun Zhang, **Sikun Xu**, Jie Xu, Xueqi Zeng, Zheng Li, and Chi Xie, "Robust Charging Demand Prediction and Charging Network Planning for Heterogeneous Behavior of Electric Vehicles." Forthcoming at Journal of Shanghai Jiao Tong University (Science) (2022). 
+1. Yilun Zhang, **Sikun Xu**, Jie Xu, Xueqi Zeng, Zheng Li, and Chi Xie, ["Robust Charging Demand Prediction and Charging Network Planning for Heterogeneous Behavior of Electric Vehicles."](https://link.springer.com/article/10.1007/s12204-023-2576-0) Forthcoming at Journal of Shanghai Jiao Tong University (Science) (2022). 
 2. **Sikun Xu**, Ruoyi Ma, Daniel K. Molzahn, Hassan Hijazi, and Cédric Josz. ["Verifying Global Optimality of Candidate Solutions to Polynomial Optimization Problems using a Determinant Relaxation Hierarchy."](https://ieeexplore.ieee.org/document/9683608) 60th IEEE Conference on Decision and Control (2021).
 
 ## Work in Progress
