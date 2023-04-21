@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a Ph.D. student in [Supply Chain, Operations, and Technology](https://olin.wustl.edu/EN-US/academic-programs/PhD/Pages/PhdDetail.aspx?username=sikun) at Olin Business School, Washington University in St. Louis. My research interest is in data-driven decision-making, optimization, learning algorithms, as well as their business applications. 
+I am a Ph.D. student in [Supply Chain, Operations, and Technology](https://olin.wustl.edu/EN-US/academic-programs/PhD/Pages/PhdDetail.aspx?username=sikun) at Olin Business School, Washington University in St. Louis. My research interests are data-driven decision-making, causal inference, learning algorithms, and sequential decision analytics. I'm also interested in their application in operations, marketing, and quantitative finance. 
 
 ### Contacts
 * sikun [at] wustl [dot] edu
