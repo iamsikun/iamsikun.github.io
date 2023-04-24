@@ -33,13 +33,15 @@ I am a Ph.D. student in [Supply Chain, Operations, and Technology](https://olin.
 ## Work in Progress
 * *Data-driven mechanism design and the value of data*
 * *Data-driven wealth management*, with Ali Hirsa and Satyan Malhotra, in cooperation with [ASK2.ai](https://www.ask2.ai/)
-  * Financial Market Regime Detection
+  * Recursive Hidden Markov Model: Financial Regime Classification and Transition 
 
 ## Presentations
-* 2023 INFORMS Annual Meeting (Scheduled)
-* 2023 POMS Annual Conference (Scheduled): Data-Driven Mechanism Design and the Value of Data
+* 2023 INFORMS Annual Meeting (Scheduled): Unstructured controls
+* 2023 POMS Annual Conference (Scheduled):
+    * Data-Driven Mechanism Design and the Value of Data
+    * Recursive Hidden Markov Model: Financial Regime Classification and Transition 
 * 2022 INFORMS Annual Meeting: Data-driven security selection for wealth management
-* 2021 INFORMS Annual Meeting: Verifying global optimality of candidate solutions to polynomial optimization problems using a determinant relaxation hierarchy 
+* 2021 INFORMS Annual Meeting: Verifying global optimality of candidate solutions to polynomial optimization problems using a determinant relaxation hierarchy \[[slide](https://wustl.box.com/s/uual8yxs54isfz5jmm42p1ekuasds4h3)\]
 
 ## Teaching
 Columbia University
@@ -50,7 +52,9 @@ Columbia University
 Washington University in St. Louis
 * SCOT 519E Revenue Management, TA; FL 2022
 * SCOT 5704 Operations Management, TA; FL 2022 
-* SCOT 500D Project Management, TA; FL 2022
+* SCOT 500D Project Management, TA; FL 2022, SP 2023
+* SCOT 500M Supply Chain Analytics: Stochastic Models, TA; SP 2023
+* SCOT 400D Supply Chain Analytics, TA; SP 2023
 
 ## Industry Experience
 * [Sauma Capital LLC.](https://www.linkedin.com/company/sauma-capital-llc), Quantitative Researcher, May. 2021 - Aug. 2021
