@@ -31,9 +31,10 @@ I am a Ph.D. student in [Supply Chain, Operations, and Technology](https://olin.
 2. **Sikun Xu**, Ruoyi Ma, Daniel K. Molzahn, Hassan Hijazi, and Cédric Josz. ["Verifying Global Optimality of Candidate Solutions to Polynomial Optimization Problems using a Determinant Relaxation Hierarchy."](https://ieeexplore.ieee.org/document/9683608) 60th IEEE Conference on Decision and Control (2021).
 
 ## Work in Progress
+* *Unstructured controls*, with Dennis Zhang and Zhenling Jiang
 * *Data-driven mechanism design and the value of data*
-* *Data-driven wealth management*, with Ali Hirsa and Satyan Malhotra, in cooperation with [ASK2.ai](https://www.ask2.ai/)
-  * Recursive Hidden Markov Model: Financial Regime Classification and Transition 
+<!-- * *Data-driven wealth management*, with Ali Hirsa and Satyan Malhotra, in cooperation with [ASK2.ai](https://www.ask2.ai/)
+  * Recursive Hidden Markov Model: Financial Regime Classification and Transition  -->
 
 ## Presentations
 * 2023 INFORMS Annual Meeting (Scheduled): Unstructured controls
