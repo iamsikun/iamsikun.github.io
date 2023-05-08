@@ -33,8 +33,8 @@ I am a Ph.D. student in [Supply Chain, Operations, and Technology](https://olin.
 ## Work in Progress
 * *Unstructured controls*, with Dennis Zhang and Zhenling Jiang
 * *Data-driven mechanism design and the value of data*
-<!-- * *Data-driven wealth management*, with Ali Hirsa and Satyan Malhotra, in cooperation with [ASK2.ai](https://www.ask2.ai/)
-  * Recursive Hidden Markov Model: Financial Regime Classification and Transition  -->
+* *Data-driven wealth management*, with Ali Hirsa and Satyan Malhotra, in cooperation with [ASK2.ai](https://www.ask2.ai/)
+  * Recursive Hidden Markov Model: Financial Regime Classification and Transition 
 
 ## Presentations
 * 2023 INFORMS Annual Meeting (Scheduled): Unstructured controls
