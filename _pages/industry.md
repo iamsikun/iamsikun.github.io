@@ -2,7 +2,7 @@
 permalink: /
 title: "Industry Experience"
 excerpt: "Industry Experience"
-author_profile: true
+author_profile: false
 redirect_from: 
 ---
 
