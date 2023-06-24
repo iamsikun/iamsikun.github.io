@@ -33,14 +33,12 @@ I am a Ph.D. student in [Supply Chain, Operations, and Technology](https://olin.
 ## Work in Progress
 * *Unstructured controls*, with Dennis Zhang and Zhenling Jiang
 * *Data-driven mechanism design and the value of data*
-* *Data-driven wealth management*, with Ali Hirsa and Satyan Malhotra, in cooperation with [ASK2.ai](https://www.ask2.ai/)
-  * Recursive Hidden Markov Model: Financial Regime Classification and Transition 
 
 ## Presentations
 * 2023 INFORMS Annual Meeting (Scheduled): Unstructured controls
-* 2023 POMS Annual Conference (Scheduled):
+* 2023 POMS Annual Conference:
     * Data-Driven Mechanism Design and the Value of Data
-    * Recursive Hidden Markov Model: Financial Regime Classification and Transition 
+    * Recursive Hidden Markov Model: Financial Regime Identification and Transition 
 * 2022 INFORMS Annual Meeting: Data-driven security selection for wealth management
 * 2021 INFORMS Annual Meeting: Verifying global optimality of candidate solutions to polynomial optimization problems using a determinant relaxation hierarchy \[[slide](https://wustl.box.com/s/uual8yxs54isfz5jmm42p1ekuasds4h3)\]
 
@@ -56,9 +54,3 @@ Washington University in St. Louis
 * SCOT 500D Project Management, TA; FL 2022, SP 2023
 * SCOT 500M Supply Chain Analytics: Stochastic Models, TA; SP 2023
 * SCOT 400D Supply Chain Analytics, TA; SP 2023
-
-## Industry Experience
-* [Sauma Capital LLC.](https://www.linkedin.com/company/sauma-capital-llc), Quantitative Researcher, May. 2021 - Aug. 2021
-* [Capstone Investment Advisors](https://www.capstoneco.com/), Investment Intern, May. 2020 - May. 2021
-* [Cardinal Operations (杉数科技)](https://www.shanshu.ai/), Algorithm Engineer Intern,  Jun. 2018 - May. 2019
-* [Dell](https://www.linkedin.com/company/delltechnologies/), Supply Chain Intern, Jan. 2018 - Jun. 2018
