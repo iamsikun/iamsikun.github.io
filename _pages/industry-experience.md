@@ -8,7 +8,7 @@ redirect_from:
 
 One of my master's research projects turned into part of [ASK2.ai](https://www.ask2.ai/)'s AI-Powered Wealth Management System. I'm now a member of their research team to help develop machine learning enhanced wealth management solutions. 
 
-Here are a working paper from us: 
+Here is a working paper from us: 
 * *Recursive Hidden Markov Model: Financial Regime Identification and Transition*, with Ali Hirsa and Satyan Malhotra
 
 ## Selected Work Experiences
