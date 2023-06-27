@@ -37,13 +37,13 @@ I am a Ph.D. student in [Supply Chain, Operations, and Technology](https://olin.
 ## Presentations
 * 2023 INFORMS Annual Meeting (Scheduled): Unstructured controls
 * 2023 POMS Annual Conference:
-    * Data-Driven Mechanism Design and the Value of Data
-    * Recursive Hidden Markov Model: Financial Regime Identification and Transition 
+    * Data-driven mechanism design and the value of data
+    * Recursive hidden Markov model: financial regime Identification and Transition 
 * 2022 INFORMS Annual Meeting: Data-driven security selection for wealth management
 * 2021 INFORMS Annual Meeting: Verifying global optimality of candidate solutions to polynomial optimization problems using a determinant relaxation hierarchy \[[slide](https://wustl.box.com/s/uual8yxs54isfz5jmm42p1ekuasds4h3)\]
 
 ## Teaching
-Columbia University
+Columbia University in the City of New York
 * IEOR 4721 AI Applications in Finance, Guest Lecturer; SU 2021, SP 2022
 * IEOR 4742 Deep Learning, Course Assistant; FL 2020
 * IEOR 4525 Machine Learning, Course Assistant; SP 2020
