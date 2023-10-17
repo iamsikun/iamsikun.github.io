@@ -31,11 +31,11 @@ I am a Ph.D. student in [Supply Chain, Operations, and Technology](https://olin.
 2. **Sikun Xu**, Ruoyi Ma, Daniel K. Molzahn, Hassan Hijazi, and Cédric Josz. ["Verifying Global Optimality of Candidate Solutions to Polynomial Optimization Problems using a Determinant Relaxation Hierarchy."](https://ieeexplore.ieee.org/document/9683608) 60th IEEE Conference on Decision and Control (2021).
 
 ## Work in Progress
-* *Unstructured controls*, with Dennis Zhang and Zhenling Jiang
+* *Causal Inference with Unstructured Data as Control Variables*, with Dennis Zhang and Zhenling Jiang
 * *Data-driven mechanism design and the value of data*
 
 ## Presentations
-* 2023 INFORMS Annual Meeting (Scheduled): Unstructured controls
+* 2023 INFORMS Annual Meeting: Causal Inference with Unstructured Data as Control Variables
 * 2023 POMS Annual Conference:
     * Data-driven mechanism design and the value of data
     * Recursive hidden Markov model: financial regime Identification and Transition 
@@ -44,13 +44,13 @@ I am a Ph.D. student in [Supply Chain, Operations, and Technology](https://olin.
 
 ## Teaching
 Columbia University in the City of New York
-* IEOR 4721 AI Applications in Finance, Guest Lecturer; SU 2021, SP 2022
-* IEOR 4742 Deep Learning, Course Assistant; FL 2020
-* IEOR 4525 Machine Learning, Course Assistant; SP 2020
+* IEOR 4721 AI Applications in Finance, Guest Lecturer; SU2021, SP2022
+* IEOR 4742 Deep Learning, Course Assistant; FL2020
+* IEOR 4525 Machine Learning, Course Assistant; SP2020
 
 Washington University in St. Louis
-* SCOT 519E Revenue Management, TA; FL 2022
-* SCOT 5704 Operations Management, TA; FL 2022 
-* SCOT 500D Project Management, TA; FL 2022, SP 2023
-* SCOT 500M Supply Chain Analytics: Stochastic Models, TA; SP 2023
-* SCOT 400D Supply Chain Analytics, TA; SP 2023
+* SCOT 519E Revenue Management, TA; FL2022
+* SCOT 5704 Operations Management, TA; FL2022 
+* SCOT 500D Project Management, TA; FL2022, SP2023
+* SCOT 500M Supply Chain Analytics: Stochastic Models, TA; SP2023
+* SCOT 400D Supply Chain Analytics, TA; SP2023
