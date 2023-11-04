@@ -6,9 +6,9 @@ author_profile: true
 redirect_from: 
 ---
 
- I'm a member of [ASK2.ai](https://www.ask2.ai/)'s research team to help develop machine learning enhanced wealth management solutions.
+ I'm a research consultant for [ASK2.ai](https://www.ask2.ai/)'s quantitative research team to help develop machine learning enhanced wealth management solutions.
 
-Here is a working paper from us: 
+Here is a working paper: 
 * *Recursive Hidden Markov Model: Financial Regime Identification and Transition*, with Ali Hirsa and Satyan Malhotra
 
 ## Selected Work Experiences
