@@ -32,9 +32,9 @@ I am a Ph.D. student in [Supply Chain, Operations, and Technology](https://olin.
 
 ## Work in Progress
 * *Causal Inference with Unstructured Data as Control Variables*, with Dennis Zhang and Zhenling Jiang
-* *Data-driven mechanism design and the value of data*
 
 ## Presentations
+* 2024 POMS Annual Conference (Scheduled): Causal Inference with Unstructured Data as Control Variables
 * 2023 INFORMS Annual Meeting: Causal Inference with Unstructured Data as Control Variables
 * 2023 POMS Annual Conference:
     * Data-driven mechanism design and the value of data
@@ -54,3 +54,4 @@ Washington University in St. Louis
 * SCOT 500D Project Management, TA; FL2022, SP2023
 * SCOT 500M Supply Chain Analytics: Stochastic Models, TA; SP2023
 * SCOT 400D Supply Chain Analytics, TA; SP2023
+* SCOT 558 Advanced Operations Strategy, TA; FL2023
