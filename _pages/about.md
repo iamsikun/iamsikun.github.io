@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a Ph.D. candidate in [Supply Chain, Operations, and Technology](https://olin.wustl.edu/EN-US/academic-programs/PhD/Pages/PhdDetail.aspx?username=sikun) at Olin Business School, Washington University in St. Louis. I'm fortunate to be advised by Prof. [Dennis Zhang](http://denniszhang.org/). My research interests are data-driven decision-making, causal inference, learning algorithms, and sequential decision analytics. I'm also interested in their application in operations, marketing, and quantitative finance. 
+I am a Ph.D. candidate in [Supply Chain, Operations, and Technology](https://olin.wustl.edu/EN-US/academic-programs/PhD/Pages/PhdDetail.aspx?username=sikun) at Olin Business School, Washington University in St. Louis. I'm fortunate to be advised by Prof. [Dennis Zhang](http://denniszhang.org/). My research interests are data-driven decision-making in the , causal inference, learning algorithms, and sequential decision analytics. I'm also interested in their application in operations, marketing, and quantitative finance. 
 
 ### Contacts
 * sikun [at] wustl [dot] edu
@@ -26,9 +26,8 @@ I am a Ph.D. candidate in [Supply Chain, Operations, and Technology](https://oli
 * **Shanghai Jiao Tong University** (2015-2019)
   * B.S. in Industrial Engineering
 
-## Publications
-1. Yilun Zhang, **Sikun Xu**, Jie Xu, Xueqi Zeng, Zheng Li, and Chi Xie, ["Robust Charging Demand Prediction and Charging Network Planning for Heterogeneous Behavior of Electric Vehicles."](https://link.springer.com/article/10.1007/s12204-023-2576-0) Journal of Shanghai Jiao Tong University (Science) (2023). 
-2. **Sikun Xu**, Ruoyi Ma, Daniel K. Molzahn, Hassan Hijazi, and Cédric Josz. ["Verifying Global Optimality of Candidate Solutions to Polynomial Optimization Problems using a Determinant Relaxation Hierarchy."](https://ieeexplore.ieee.org/document/9683608) 60th IEEE Conference on Decision and Control (2021).
+## Conference Proceedings
+1. **Sikun Xu**, Ruoyi Ma, Daniel K. Molzahn, Hassan Hijazi, and Cédric Josz. ["Verifying Global Optimality of Candidate Solutions to Polynomial Optimization Problems using a Determinant Relaxation Hierarchy."](https://ieeexplore.ieee.org/document/9683608) 60th IEEE Conference on Decision and Control (2021).
 
 ## Work in Progress
 * *Causal Inference with Unstructured Data as Control Variables*, with Dennis Zhang and Zhenling Jiang
