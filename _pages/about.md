@@ -13,7 +13,6 @@ I am a Ph.D. candidate in [Supply Chain, Operations, and Technology](https://oli
 
 ### Contacts
 * sikun [at] wustl [dot] edu
-* sx2265 [at] columbia [dot] edu
 * xusikun96 [at] gmail [dot] com
 
 
