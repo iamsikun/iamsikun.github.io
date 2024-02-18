@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a Ph.D. candidate in [Supply Chain, Operations, and Technology](https://olin.wustl.edu/EN-US/academic-programs/PhD/Pages/PhdDetail.aspx?username=sikun) at Olin Business School, Washington University in St. Louis. I'm fortunate to be advised by Prof. [Dennis Zhang](http://denniszhang.org/). My research interests are causal inference, learning theory, and data-driven optimization. I'm also interested in their application in marketing, operations, and quantitative finance. 
+I am a Ph.D. candidate in [Supply Chain, Operations, and Technology](https://olin.wustl.edu/EN-US/academic-programs/PhD/Pages/PhdDetail.aspx?username=sikun) at Olin Business School, Washington University in St. Louis. I'm fortunate to be advised by Prof. [Dennis Zhang](http://denniszhang.org/). My research interests are causal inference, machine learning, and data-driven optimization. I'm also interested in their application in marketing, operations, and quantitative finance. 
 
 ### Contacts
 * sikun [at] wustl [dot] edu
