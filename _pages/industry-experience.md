@@ -8,8 +8,8 @@ redirect_from:
 
  I'm a research consultant for [ASK2.ai](https://www.ask2.ai/)'s quantitative research team to help develop machine learning enhanced solutions for wealth management and financial services.
 
-Here is a working paper: 
-* *Robust Rolling Regime Detection: A Data-Driven Perspective of Financial Markets*, with Ali Hirsa and Satyan Malhotra
+Here is a technical report I was involved in: 
+* [Robust Rolling Regime Detection (R2-RD): A Data-Driven Perspective of Financial Markets](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4729435#)
 
 ## Selected Work Experiences
 

@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a Ph.D. candidate in [Supply Chain, Operations, and Technology](https://olin.wustl.edu/EN-US/academic-programs/PhD/Pages/PhdDetail.aspx?username=sikun) at Olin Business School, Washington University in St. Louis. I'm fortunate to be advised by Prof. [Dennis Zhang](http://denniszhang.org/). My research interests are data-driven decision-making, causal inference, learning algorithms, and sequential decision analytics. I'm also interested in their application in operations, marketing, and quantitative finance. 
+I am a Ph.D. candidate in [Supply Chain, Operations, and Technology](https://olin.wustl.edu/EN-US/academic-programs/PhD/Pages/PhdDetail.aspx?username=sikun) at Olin Business School, Washington University in St. Louis. I'm fortunate to be advised by Prof. [Dennis Zhang](http://denniszhang.org/). My research interests are causal inference, learning theory, and data-driven optimization. I'm also interested in their application in marketing, operations, and quantitative finance. 
 
 ### Contacts
 * sikun [at] wustl [dot] edu
@@ -50,6 +50,6 @@ Washington University in St. Louis
 * SCOT 519E Revenue Management, TA; FL2022
 * SCOT 5704 Operations Management, TA; FL2022 
 * SCOT 500D Project Management, TA; FL2022, SP2023
-* SCOT 500M Supply Chain Analytics: Stochastic Models, TA; SP2023
+* SCOT 500M Supply Chain Analytics: Stochastic Models, TA; SP2023, SP2024
 * SCOT 400D Supply Chain Analytics, TA; SP2023
 * SCOT 558 Advanced Operations Strategy, TA; FL2023
