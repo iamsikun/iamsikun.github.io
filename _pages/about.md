@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a Ph.D. candidate in [Supply Chain, Operations, and Technology](https://olin.wustl.edu/EN-US/academic-programs/PhD/Pages/PhdDetail.aspx?username=sikun) at Olin Business School, Washington University in St. Louis. I'm fortunate to be advised by Prof. [Dennis Zhang](http://denniszhang.org/). My research interests are causal inference, machine learning, and data-driven optimization. I'm also interested in their application in marketing, operations, and quantitative finance. 
+I am a Ph.D. candidate in [Supply Chain, Operations, and Technology](https://olin.wustl.edu/EN-US/academic-programs/PhD/Pages/PhdDetail.aspx?username=sikun) at Olin Business School, Washington University in St. Louis. I'm fortunate to be advised by Prof. [Dennis Zhang](http://denniszhang.org/) and Prof. [Raphael Thomadsen](https://apps.olin.wustl.edu/faculty/thomadsen/). My research interests are causal inference, machine learning, and data-driven optimization. I'm also interested in their application in marketing, operations, and quantitative finance. 
 
 ### Contacts
 * sikun [at] wustl [dot] edu
@@ -32,7 +32,10 @@ I am a Ph.D. candidate in [Supply Chain, Operations, and Technology](https://oli
 * *Causal Inference with Unstructured Data as Control Variables*, with Dennis Zhang and Zhenling Jiang
 
 ## Presentations
-* 2024 POMS Annual Conference (Scheduled): Causal Inference with Unstructured Data as Control Variables
+* 2024 INFORMS Annual Meeting (Scheduled): 
+    * Session chair of Machine Learning and Causal Inference
+    * Causal Inference with Unstructured Data as Control Variables
+* 2024 POMS Annual Conference: Causal Inference with Unstructured Data as Control Variables
 * 2023 INFORMS Annual Meeting: Causal Inference with Unstructured Data as Control Variables
 * 2023 POMS Annual Conference:
     * Data-driven mechanism design and the value of data
