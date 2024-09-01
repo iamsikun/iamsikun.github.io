@@ -31,28 +31,33 @@ I am a Ph.D. candidate in [Supply Chain, Operations, and Technology](https://oli
 ## Work in Progress
 * *Causal Inference with Unstructured Data as Control Variables*, with Dennis Zhang and Zhenling Jiang
 
-## Presentations
+## Invited Talks and Presentations
 * 2024 INFORMS Annual Meeting (Scheduled): 
     * Session chair of Machine Learning and Causal Inference
     * Causal Inference with Unstructured Data as Control Variables
-* 2024 POMS Annual Conference: Causal Inference with Unstructured Data as Control Variables
+* 34th POMS Annual Conference: Causal Inference with Unstructured Data as Control Variables
 * 2023 INFORMS Annual Meeting: Causal Inference with Unstructured Data as Control Variables
-* 2023 POMS Annual Conference:
+* 33rd POMS Annual Conference:
     * Data-driven mechanism design and the value of data
     * Recursive hidden Markov model: financial regime Identification and Transition 
 * 2022 INFORMS Annual Meeting: Data-driven security selection for wealth management
+* Guest lecture for IEOR 4721 AI Applications in Finance (Spring 2022), Columbia University
 * 2021 INFORMS Annual Meeting: Verifying global optimality of candidate solutions to polynomial optimization problems using a determinant relaxation hierarchy \[[slide](https://wustl.box.com/s/uual8yxs54isfz5jmm42p1ekuasds4h3)\]
+* Guest lecture for IEOR 4721 AI Applications in Finance (Summer 2021), Columbia University
 
 ## Teaching
+### Teaching Assistants
 Columbia University in the City of New York
-* IEOR 4721 AI Applications in Finance, Guest Lecturer; SU2021, SP2022
-* IEOR 4742 Deep Learning, Course Assistant; FL2020
-* IEOR 4525 Machine Learning, Course Assistant; SP2020
+* IEOR 4742 Deep Learning; FL2020
+* IEOR 4525 Machine Learning; SP2020
 
 Washington University in St. Louis
-* SCOT 519E Revenue Management, TA; FL2022
-* SCOT 5704 Operations Management, TA; FL2022 
-* SCOT 500D Project Management, TA; FL2022, SP2023
-* SCOT 500M Supply Chain Analytics: Stochastic Models, TA; SP2023, SP2024
-* SCOT 400D Supply Chain Analytics, TA; SP2023
-* SCOT 558 Advanced Operations Strategy, TA; FL2023
+* SCOT 519E Revenue Management; FL2022
+* SCOT 5704 Operations Management; FL2022 
+* SCOT 500D Project Management; FL2022, SP2023
+* SCOT 500M Supply Chain Analytics: Stochastic Models; SP2023, SP2024
+* SCOT 400D Supply Chain Analytics; SP2023
+* SCOT 558 Advanced Operations Strategy; FL2023
+* SCOT 356 Operations and Manufacturing Management; FL2024
+* SCOT 652 Dynamic Programming; FL2024
+* MGT 680E AI & Machine Learning Business Applications; FL2024
