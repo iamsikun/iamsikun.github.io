@@ -29,35 +29,46 @@ I am a Ph.D. candidate in [Supply Chain, Operations, and Technology](https://oli
 1. **Sikun Xu**, Ruoyi Ma, Daniel K. Molzahn, Hassan Hijazi, and Cédric Josz. ["Verifying Global Optimality of Candidate Solutions to Polynomial Optimization Problems using a Determinant Relaxation Hierarchy."](https://ieeexplore.ieee.org/document/9683608) 60th IEEE Conference on Decision and Control (2021).
 
 ## Work in Progress
-* *Causal Inference with Unstructured Data as Control Variables*, with Dennis Zhang and Zhenling Jiang
+* *Causal Inference with Unstructured Data as Control Variables*, with Dennis Zhang, Zhenling Jiang, and Zhengling Qi
+* *Winner's Curse in Personalized Targeting: Evidence and Solutions*, with Dennis Zhang and Raphael Thomadsen
 
-## Invited Talks and Presentations
-* 2024 INFORMS Annual Meeting (Scheduled): 
-    * Session chair of Machine Learning and Causal Inference
-    * Causal Inference with Unstructured Data as Control Variables
-* 34th POMS Annual Conference: Causal Inference with Unstructured Data as Control Variables
-* 2023 INFORMS Annual Meeting: Causal Inference with Unstructured Data as Control Variables
-* 33rd POMS Annual Conference:
-    * Data-driven mechanism design and the value of data
-    * Recursive hidden Markov model: financial regime Identification and Transition 
-* 2022 INFORMS Annual Meeting: Data-driven security selection for wealth management
-* Guest lecture for IEOR 4721 AI Applications in Finance (Spring 2022), Columbia University
-* 2021 INFORMS Annual Meeting: Verifying global optimality of candidate solutions to polynomial optimization problems using a determinant relaxation hierarchy \[[slide](https://wustl.box.com/s/uual8yxs54isfz5jmm42p1ekuasds4h3)\]
-* Guest lecture for IEOR 4721 AI Applications in Finance (Summer 2021), Columbia University
+## Invited Talks and Conference Presentations
+* Winner's Curse in Personalized Targeting: Evidence and Solutions
+    * 2024 Conference on Artificial Intelligence, Machine Learning, and Business Analytics (Yale)
+
+* Causal Inference When Controlling for Unstructured Data
+    * 2024 Conference on Artificial Intelligence, Machine Learning, and Business Analytics (Yale)
+    * 2024 INFORMS Annual Meeting (Seattle, *Sesssion Chair*)
+    * 2024 POMS Annual Conference (Minneapolis)
+    * 2023 INFORMS Annual Meeting (Phoenix)
+
+* 2023 POMS Annual Conference (Orlando): Data-driven security selection for wealth management
+* 2022 INFORMS Annual Meeting (Indianapolis): Data-driven security selection for wealth management
+* 2021 INFORMS Annual Meeting (Virtual): Verifying global optimality of candidate solutions to polynomial optimization problems using a determinant relaxation hierarchy \[[slide](https://wustl.box.com/s/uual8yxs54isfz5jmm42p1ekuasds4h3)\]
+
+### Guest Lecturer
+* Washington University in St. Louis (MGT680E, 2024 Fall)
+* Columbia University (IEOR4721, 2022 Spring)
+* Columbia University (IEOR4721, 2021 Summer)
+
 
 ## Teaching
 ### Teaching Assistants
 Columbia University in the City of New York
-* IEOR 4742 Deep Learning; FL2020
-* IEOR 4525 Machine Learning; SP2020
+* IEOR4742 Deep Learning; FL2020
+* IEOR4525 Machine Learning; SP2020
 
 Washington University in St. Louis
-* SCOT 519E Revenue Management; FL2022
-* SCOT 5704 Operations Management; FL2022 
-* SCOT 500D Project Management; FL2022, SP2023
-* SCOT 500M Supply Chain Analytics: Stochastic Models; SP2023, SP2024
-* SCOT 400D Supply Chain Analytics; SP2023
-* SCOT 558 Advanced Operations Strategy; FL2023
-* SCOT 356 Operations and Manufacturing Management; FL2024
-* SCOT 652 Dynamic Programming; FL2024
-* MGT 680E AI & Machine Learning Business Applications; FL2024
+* SCOT519E Revenue Management; FL2022
+* SCOT5704 Operations Management; FL2022 
+* SCOT500D Project Management; FL2022, SP2023
+* SCOT500M Supply Chain Analytics: Stochastic Models; SP2023, SP2024
+* SCOT400D Supply Chain Analytics; SP2023
+* SCOT558 Advanced Operations Strategy; FL2023
+* SCOT356 Operations and Manufacturing Management; FL2024
+* MGT680E AI & Machine Learning Business Applications; FL2024
+
+
+## Academic Services
+  * Session Chair at INFORMS Annual Meeting (2024)
+  * Reviewer for *Journal of Investment Strategies*
