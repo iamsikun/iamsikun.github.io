@@ -37,6 +37,7 @@ I am a Ph.D. candidate in [Supply Chain, Operations, and Technology](https://oli
     * 2024 Conference on Artificial Intelligence, Machine Learning, and Business Analytics (Yale)
 
 * Causal Inference When Controlling for Unstructured Data
+    * 2025 ISMS Marketing Science Conference (Washington, D.C., Scheduled)
     * 2024 INFORMS Annual Meeting (Seattle, *Sesssion Chair*)
     * 2024 POMS Annual Conference (Minneapolis)
     * 2023 INFORMS Annual Meeting (Phoenix)
