@@ -30,10 +30,11 @@ I am a Ph.D. candidate in [Supply Chain, Operations, and Technology](https://oli
 
 ## Work in Progress
 * *Causal Inference with Unstructured Data as Control Variables*, with Dennis Zhang, Zhenling Jiang, and Zhengling Qi
-* *Winner's Curse in Personalized Targeting: Evidence and Solutions*, with Dennis Zhang and Raphael Thomadsen
+* *Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions*, with Dennis Zhang and Raphael Thomadsen
 
 ## Invited Talks and Conference Presentations
-* Winner's Curse in Personalized Targeting: Evidence and Solutions
+* Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions
+    * 2025 INFORMS Marketing Science Conference (Washington, D.C., Scheduled)
     * 2024 Conference on Artificial Intelligence, Machine Learning, and Business Analytics (Yale)
 
 * Causal Inference When Controlling for Unstructured Data
