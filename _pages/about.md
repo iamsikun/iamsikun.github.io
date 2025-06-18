@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a Ph.D. candidate in [Supply Chain, Operations, and Technology](https://olin.wustl.edu/EN-US/academic-programs/PhD/Pages/PhdDetail.aspx?username=sikun) at Olin Business School, Washington University in St. Louis. I'm fortunate to be advised by Prof. [Dennis Zhang](http://denniszhang.org/) and Prof. [Raphael Thomadsen](https://apps.olin.wustl.edu/faculty/thomadsen/). My research interests are causal inference, machine learning, and data-driven optimization. I'm also interested in their application in marketing, operations, and quantitative finance. 
+I am a Ph.D. candidate in at Olin Business School, Washington University in St. Louis. I'm fortunate to be advised by Prof. [Dennis Zhang](http://denniszhang.org/) and Prof. [Raphael Thomadsen](https://apps.olin.wustl.edu/faculty/thomadsen/). My research interests are causal inference, machine learning, and data-driven optimization. I'm also interested in their application in marketing, operations, and quantitative finance. 
 
 ### Contacts
 * sikun [at] wustl [dot] edu
@@ -35,12 +35,13 @@ I am a Ph.D. candidate in [Supply Chain, Operations, and Technology](https://oli
 * *The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions*, with Raphael Thomadsen and Dennis Zhang
 
 ## Invited Talks and Conference Presentations
-* Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions
-    * 2025 INFORMS Marketing Science Conference (Washington, D.C., Scheduled)
+* The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions
+    * 2025 INFORMS Annual Meeting (Atlanta, Scheduled)
+    * 2025 INFORMS Marketing Science Conference (Washington, D.C.)
     * 2024 Conference on Artificial Intelligence, Machine Learning, and Business Analytics (Yale)
 
-* Causal Inference When Controlling for Unstructured Data
-    * 2025 ISMS Marketing Science Conference (Washington, D.C., Scheduled)
+* A Causal Approach to Representation Learning for Unstructured Data
+    * 2025 ISMS Marketing Science Conference (Washington, D.C.)
     * 2024 INFORMS Annual Meeting (Seattle, *Sesssion Chair*)
     * 2024 POMS Annual Conference (Minneapolis)
     * 2023 INFORMS Annual Meeting (Phoenix)
