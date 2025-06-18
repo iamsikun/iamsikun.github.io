@@ -28,9 +28,11 @@ I am a Ph.D. candidate in [Supply Chain, Operations, and Technology](https://oli
 ## Conference Proceedings
 1. **Sikun Xu**, Ruoyi Ma, Daniel K. Molzahn, Hassan Hijazi, and Cédric Josz. ["Verifying Global Optimality of Candidate Solutions to Polynomial Optimization Problems using a Determinant Relaxation Hierarchy."](https://ieeexplore.ieee.org/document/9683608) 60th IEEE Conference on Decision and Control (2021).
 
+## Working Papers
+* *A Causal Approach to Representation Learning for Unstructured Data*, with Zhenling Jiang, Zhengling Qi, and Dennis Zhang [[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5309826)]
+
 ## Work in Progress
-* *Causal Inference with Unstructured Data as Control Variables*, with Dennis Zhang, Zhenling Jiang, and Zhengling Qi
-* *Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions*, with Dennis Zhang and Raphael Thomadsen
+* *The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions*, with Raphael Thomadsen and Dennis Zhang
 
 ## Invited Talks and Conference Presentations
 * Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions
