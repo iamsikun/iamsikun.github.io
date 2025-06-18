@@ -47,9 +47,12 @@ I am a Ph.D. candidate in at Olin Business School, Washington University in St. 
     * 2024 POMS Annual Conference (Minneapolis)
     * 2023 INFORMS Annual Meeting (Phoenix)
 
-* 2023 POMS Annual Conference (Orlando): Data-driven security selection for wealth management
-* 2022 INFORMS Annual Meeting (Indianapolis): Data-driven security selection for wealth management
-* 2021 INFORMS Annual Meeting (Virtual): Verifying global optimality of candidate solutions to polynomial optimization problems using a determinant relaxation hierarchy \[[slide](https://wustl.box.com/s/uual8yxs54isfz5jmm42p1ekuasds4h3)\]
+* Data-driven security selection for wealth management
+    * 2023 POMS Annual Conference (Orlando): 
+    * 2022 INFORMS Annual Meeting (Indianapolis):
+
+* Verifying global optimality of candidate solutions to polynomial optimization problems using a determinant relaxation hierarchy \[[slide](https://wustl.box.com/s/uual8yxs54isfz5jmm42p1ekuasds4h3)\]
+    * 2021 INFORMS Annual Meeting (Virtual): 
 
 ### Guest Lecturer
 * Washington University in St. Louis (MGT680E, 2024 Fall)
