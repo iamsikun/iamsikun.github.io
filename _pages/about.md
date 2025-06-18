@@ -18,7 +18,8 @@ I am a Ph.D. candidate in at Olin Business School, Washington University in St. 
 
 ## Education
 * **Olin Business School, Washington University in St. Louis** (2021-now)
-  * Ph.D. in Supply Chain, Operations, and Technology
+  * Ph.D. Candidate
+  * Dissertation Title: Data-Driven Business Decision-Making with Causal Inference and Machine Learning
 * **Columbia University in the City of New York** (2019-2020)
   * M.S. in Operations Research
   * Data Science Institute Scholar
