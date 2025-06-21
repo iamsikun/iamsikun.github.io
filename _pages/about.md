@@ -26,14 +26,17 @@ I am a Ph.D. candidate in at Olin Business School, Washington University in St. 
 * **Shanghai Jiao Tong University** (2015-2019)
   * B.S. in Industrial Engineering
 
-## Conference Proceedings
-1. **Sikun Xu**, Ruoyi Ma, Daniel K. Molzahn, Hassan Hijazi, and Cédric Josz. ["Verifying Global Optimality of Candidate Solutions to Polynomial Optimization Problems using a Determinant Relaxation Hierarchy."](https://ieeexplore.ieee.org/document/9683608) 60th IEEE Conference on Decision and Control (2021).
-
 ## Working Papers
-* *A Causal Approach to Representation Learning for Unstructured Data*, with Zhenling Jiang, Zhengling Qi, and Dennis Zhang [[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5309826)]
+* [*A Causal Approach to Representation Learning for Unstructured Data*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5309826), with Zhenling Jiang, Zhengling Qi, and Dennis Zhang, submitted to **Marketing Science**
+  * Accepted to 19th Annual Bass FORMS Conference (2025)
 
 ## Work in Progress
 * *The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions*, with Raphael Thomadsen and Dennis Zhang
+  * Accepted to SICS 2025
+
+## Conference Proceedings
+1. **Sikun Xu**, Ruoyi Ma, Daniel K. Molzahn, Hassan Hijazi, and Cédric Josz. ["Verifying Global Optimality of Candidate Solutions to Polynomial Optimization Problems using a Determinant Relaxation Hierarchy."](https://ieeexplore.ieee.org/document/9683608) 60th IEEE Conference on Decision and Control (2021).
+
 
 ## Invited Talks and Conference Presentations
 * The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions
