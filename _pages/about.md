@@ -27,7 +27,7 @@ I am a Ph.D. candidate in at Olin Business School, Washington University in St. 
   * B.S. in Industrial Engineering
 
 ## Working Papers
-* [*A Causal Approach to Representation Learning for Unstructured Data*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5309826), with Zhenling Jiang, Zhengling Qi, and Dennis Zhang, submitted to **Marketing Science**
+* [*A Causal Approach to Representation Learning for Unstructured Data*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5309826), with Zhenling Jiang, Zhengling Qi, and Dennis Zhang
   * Accepted to 19th Annual Bass FORMS Conference (2025)
 
 ## Work in Progress
