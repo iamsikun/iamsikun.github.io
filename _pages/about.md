@@ -40,7 +40,7 @@ I am a Ph.D. candidate in at Olin Business School, Washington University in St. 
 
 ## Invited Talks and Conference Presentations
 * The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions
-    * 2025 INFORMS Annual Meeting (Atlanta, Scheduled)
+    * 2025 INFORMS Annual Meeting (Atlanta)
     * 2025 INFORMS Marketing Science Conference (Washington, D.C.)
     * 2024 Conference on Artificial Intelligence, Machine Learning, and Business Analytics (Yale)
 
