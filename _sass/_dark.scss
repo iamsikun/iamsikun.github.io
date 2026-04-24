@@ -1,0 +1,181 @@
+/* ==========================================================================
+   Dark theme overrides
+   Activated via [data-theme="dark"] on <html>.
+   ========================================================================== */
+
+$dark-bg         : #0f1115;
+$dark-surface    : #151821;
+$dark-surface-2  : #1a1d24;
+$dark-border     : #2a2f3a;
+$dark-text       : #e5e7eb;
+$dark-text-muted : #9ca3af;
+$dark-link       : #93c5fd;
+$dark-link-hover : #bfdbfe;
+
+/* Theme toggle button — fixed top-right, always visible */
+#theme-toggle {
+  position: fixed;
+  top: 1.1rem;
+  right: 1.25rem;
+  z-index: 100;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 999px;
+  cursor: pointer;
+  color: #1e3a8a;
+  backdrop-filter: saturate(150%) blur(6px);
+  -webkit-backdrop-filter: saturate(150%) blur(6px);
+  transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+#theme-toggle:hover { transform: scale(1.05); }
+#theme-toggle:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+#theme-toggle .theme-icon { display: none; }
+
+/* Light mode shows the moon (click to go dark) */
+:root[data-theme="light"] #theme-toggle .theme-icon--moon,
+:root:not([data-theme="dark"]) #theme-toggle .theme-icon--moon {
+  display: block;
+}
+/* Dark mode shows the sun (click to go light) */
+:root[data-theme="dark"] #theme-toggle .theme-icon--sun {
+  display: block;
+}
+
+[data-theme="dark"] #theme-toggle {
+  background: rgba(21, 24, 33, 0.85);
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #93c5fd;
+}
+
+[data-theme="dark"] {
+  body,
+  .page,
+  .page__content,
+  .initial-content,
+  .layout--single,
+  .layout--archive {
+    background-color: $dark-bg;
+    color: $dark-text;
+  }
+
+  h1, h2, h3, h4, h5, h6 { color: $dark-text; }
+
+  p, li, dd, dt, span, small, strong, em, label { color: $dark-text; }
+
+  a { color: $dark-link; }
+  a:hover, a:focus { color: $dark-link-hover; }
+  a:visited { color: $dark-link; }
+
+  .masthead {
+    background-color: $dark-bg;
+    border-bottom-color: $dark-border;
+  }
+  .masthead__menu-item a,
+  .greedy-nav a,
+  .greedy-nav .site-title {
+    color: $dark-text;
+    background: transparent;
+  }
+  .greedy-nav { background: $dark-bg; }
+  .greedy-nav a:hover { color: $dark-link; }
+  .greedy-nav .hidden-links { background: $dark-surface; border-color: $dark-border; }
+  .greedy-nav .hidden-links a { color: $dark-text; }
+  .greedy-nav .hidden-links a:hover { background: $dark-surface-2; }
+  .greedy-nav button { background: transparent; color: $dark-text; }
+
+  .page__footer {
+    background-color: $dark-surface;
+    color: $dark-text-muted;
+    border-top: 1px solid $dark-border;
+  }
+  .page__footer a { color: $dark-link; }
+  .page__footer-copyright { color: $dark-text-muted; }
+
+  /* Sidebar / author profile */
+  .sidebar,
+  .author__avatar,
+  .author__content,
+  .author__urls-wrapper {
+    color: $dark-text;
+  }
+  .author__bio { color: $dark-text-muted; }
+  .author__urls {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+  }
+  .author__urls li a { color: $dark-text; }
+  .author__urls li a:hover { color: $dark-link; }
+
+  /* Archive / list items */
+  .archive__item-title,
+  .archive__item-title a,
+  .page__title,
+  .page__title a { color: $dark-text; }
+  .archive__item-excerpt { color: $dark-text-muted; }
+  .archive__subtitle { color: $dark-text; border-bottom-color: $dark-border; }
+
+  /* Code */
+  code, pre, tt, kbd, samp {
+    background-color: $dark-surface-2;
+    color: $dark-text;
+    border-color: $dark-border;
+  }
+  .highlight, div.highlighter-rouge, figure.highlight {
+    background-color: $dark-surface-2;
+    color: $dark-text;
+  }
+  pre.highlight, .highlight pre { background-color: $dark-surface-2; }
+
+  /* Blockquote, hr, tables */
+  blockquote {
+    border-left-color: $dark-border;
+    color: $dark-text-muted;
+  }
+  hr { border-color: $dark-border; }
+  table { color: $dark-text; }
+  th { background-color: $dark-surface; border-color: $dark-border; color: $dark-text; }
+  td { border-color: $dark-border; }
+  tr:nth-child(even) { background-color: $dark-surface; }
+
+  /* Forms / inputs */
+  input, textarea, select {
+    background-color: $dark-surface;
+    color: $dark-text;
+    border-color: $dark-border;
+  }
+  .btn {
+    background-color: $dark-surface;
+    color: $dark-text;
+    border-color: $dark-border;
+  }
+  .btn:hover { background-color: $dark-surface-2; }
+
+  /* Notices / boxes */
+  .notice, .notice--primary, .notice--info, .notice--warning, .notice--success, .notice--danger {
+    background-color: $dark-surface;
+    color: $dark-text;
+    border-left-color: $dark-link;
+  }
+
+  /* Tone down images slightly so they don't blaze on dark bg */
+  img:not(.no-dim):not(.author__avatar img) { filter: brightness(0.92); }
+
+  /* Pagination, breadcrumbs */
+  .pagination a { color: $dark-text; border-color: $dark-border; background: $dark-surface; }
+  .pagination a:hover { background: $dark-surface-2; }
+  .pagination .current { background: $dark-link; color: $dark-bg; border-color: $dark-link; }
+
+  .breadcrumbs, .breadcrumbs a { color: $dark-text-muted; }
+
+  /* TOC */
+  .toc { background-color: $dark-surface; border-color: $dark-border; }
+  .toc .nav__title { background-color: $dark-surface-2; color: $dark-text; }
+  .toc a { color: $dark-text; }
+  .toc a:hover { color: $dark-link; }
+}
