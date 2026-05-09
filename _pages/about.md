@@ -32,7 +32,9 @@ I am a Ph.D. candidate in at Olin Business School, Washington University in St. 
 * [*The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5930537), with Raphael Thomadsen and Dennis Zhang
   * Accepted to SICS 2025
 
-<!-- ## Work in Progress -->
+## Work in Progress
+
+* *SOTA or Luck? The Winner’s Curse in LLM Leaderboards*, with Raphael Thomadsen, Dennis Zhang, and Heng Zhang
 
 ## Conference Proceedings
 1. **Sikun Xu**, Ruoyi Ma, Daniel K. Molzahn, Hassan Hijazi, and Cédric Josz. ["Verifying Global Optimality of Candidate Solutions to Polynomial Optimization Problems using a Determinant Relaxation Hierarchy."](https://ieeexplore.ieee.org/document/9683608) 60th IEEE Conference on Decision and Control (2021).
