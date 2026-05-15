@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a Ph.D. candidate in at Olin Business School, Washington University in St. Louis. I'm fortunate to be advised by Prof. [Dennis Zhang](http://denniszhang.org/) and Prof. [Raphael Thomadsen](https://apps.olin.wustl.edu/faculty/thomadsen/). My research interests are causal inference, machine learning, and data-driven optimization. I'm also interested in their application in marketing, operations, and quantitative finance. 
+I am a Ph.D. candidate at Olin Business School, Washington University in St. Louis. I'm fortunate to be advised by Prof. [Dennis Zhang](http://denniszhang.org/) and Prof. [Raphael Thomadsen](https://apps.olin.wustl.edu/faculty/thomadsen/). I study how firms can make reliable decisions using modern machine learning and AI systems when the available data is noisy and high-dimensional.
 
 ### Contacts
 * sikun [at] wustl [dot] edu
