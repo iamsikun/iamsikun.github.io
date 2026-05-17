@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Sikun Xu"
 title_separator          : "-"
 name                     : &name "Sikun Xu"
-description              : &description "personal description"
+description              : &description "Personal website of Sikun Xu, Ph.D. candidate at Olin Business School (WashU). Research on reliable decision-making with machine learning and causal inference when data is noisy and high-dimensional."
 url                      : https://iamsikun.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "iamsikun/iamsikun.github.io"
@@ -56,7 +56,7 @@ analytics:
 author:
   name             : "Sikun Xu (徐思坤)"
   avatar           : "profile.png"
-  bio              : "Ph.D. Candidate in Business"
+  bio              : "Ph.D. Candidate at Washington University in St. Louis"
   location         : 
   employer         :
   pubmed           : 

@@ -12,14 +12,16 @@ Personal academic website for Sikun Xu, deployed to GitHub Pages at https://iams
 # Install Ruby gem dependencies (uses Gemfile.lock)
 bundle install
 
-# Run the site locally with live reload (Hawkins) — serves at http://localhost:4000
-bundle exec jekyll liveserve --config _config.yml,_config.dev.yml
+# Run the site locally — serves at http://localhost:4000
+bundle exec jekyll serve --config _config.yml,_config.dev.yml
 
 # Or a plain build for production
 bundle exec jekyll build
 ```
 
 `_config.dev.yml` is a development override layered on top of `_config.yml` (disables analytics, switches Sass to expanded output, points URL at localhost). Jekyll does **not** reload `_config.yml` on file changes — restart the server after editing either config.
+
+The `Gemfile` lists `hawkins` (a livereload variant exposing `jekyll liveserve`), but the Hawkins servlet currently crashes on every request with `NoMethodError: undefined method 'key?' for nil` against Jekyll 3.10 + current Ruby/WEBrick on this machine. Use plain `jekyll serve` and reload manually until that's fixed upstream.
 
 JS bundling (rarely needed; only if editing files under `assets/js/_main.js` or `assets/js/plugins/`):
 
