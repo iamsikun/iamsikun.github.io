@@ -1,0 +1,46 @@
+/* ==========================================================================
+   Scroll-triggered reveal
+   Section headings fade, slide, and gently scale in when scrolled into view.
+   Gated on `html.js` so users without JS still see content immediately.
+   ========================================================================== */
+
+html.js {
+  .page__content h2,
+  .page__content h3 {
+    opacity: 0;
+    transform: translate3d(0, 24px, 0) scale(0.985);
+    transition:
+      opacity 0.75s cubic-bezier(0.22, 0.61, 0.36, 1),
+      transform 0.75s cubic-bezier(0.22, 0.61, 0.36, 1);
+    transform-origin: left center;
+    will-change: opacity, transform;
+    backface-visibility: hidden;
+  }
+
+  .page__content h2.is-visible,
+  .page__content h3.is-visible {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+
+  /* Mobile: smaller travel + faster timing so headers don't feel like they jump
+     into place on a tight viewport. */
+  @media (max-width: 600px) {
+    .page__content h2,
+    .page__content h3 {
+      transform: translate3d(0, 12px, 0) scale(0.99);
+      transition:
+        opacity 0.55s cubic-bezier(0.22, 0.61, 0.36, 1),
+        transform 0.55s cubic-bezier(0.22, 0.61, 0.36, 1);
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.js .page__content h2,
+  html.js .page__content h3 {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

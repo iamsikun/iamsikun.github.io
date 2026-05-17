@@ -41,7 +41,7 @@ I am a Ph.D. candidate at Olin Business School, Washington University in St. Lou
 * *SOTA or Luck? The Winner’s Curse in LLM Leaderboards*, with Raphael Thomadsen, Dennis Zhang, and Heng Zhang
 
 
-## Invited Talks and Conference Presentations
+## Conference Presentations
 * The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions
     * 2025 INFORMS Annual Meeting (Atlanta)
     * 2025 INFORMS Marketing Science Conference (Washington, D.C.)
@@ -60,13 +60,14 @@ I am a Ph.D. candidate at Olin Business School, Washington University in St. Lou
 * Verifying global optimality of candidate solutions to polynomial optimization problems using a determinant relaxation hierarchy \[[slide](https://wustl.box.com/s/uual8yxs54isfz5jmm42p1ekuasds4h3)\]
     * 2021 INFORMS Annual Meeting (Virtual)
 
+
+## Teaching
+
 ### Guest Lecturer
 * Washington University in St. Louis (MGT680E, 2024 Fall)
 * Columbia University (IEOR4721, 2022 Spring)
 * Columbia University (IEOR4721, 2021 Summer)
 
-
-## Teaching
 ### Teaching Assistants
 Columbia University in the City of New York
 * IEOR4742 Deep Learning; FL2020
