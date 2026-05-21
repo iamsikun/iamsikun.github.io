@@ -6,7 +6,6 @@ author_profile: true
 redirect_from: 
 ---
 
-## Selected Work Experiences
 * [TikTok Inc.](https://www.tiktok.com/about?lang=en), Machine Learning Scientist Intern, March 2026 - Now
 * [Sauma Capital LLC.](https://www.linkedin.com/company/sauma-capital-llc), Quantitative Researcher, May. 2021 - Aug. 2021
 * [Capstone Investment Advisors](https://www.capstoneco.com/), Investment Intern, May. 2020 - May. 2021
