@@ -12,8 +12,10 @@ redirect_from:
 * [Cardinal Operations (杉数科技)](https://www.shanshu.ai/), Algorithm Engineer Intern,  Jun. 2018 - May. 2019
 
 
-## Consulting
-I am also a founding member and consultant at [ASK2.ai](https://www.ask2.ai/). We build integrated AI systems that help financial institutions bring state-of-the-art machine learning models into research, advisory, and investment workflows.
+## Consulting & Product
+I am a founding member and consultant at [ASK2.ai](https://www.ask2.ai/), where we build integrated AI systems that help financial institutions incorporate state-of-the-art machine learning models into research, advisory, and investment workflows.
 
-Below is one of the technical reports I was involved in:
-* [Robust Rolling Regime Detection (R2-RD): A Data-Driven Perspective of Financial Markets](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4729435#)
+One product I led is Robust-Rolling Regime Detection (R2-RD, patent pending), a system that identifies financial regimes and generates signals to support decisions across the investment lifecycle. The demo below shows R2-RD applied to the U.S. macroeconomy. [Read the technical report →](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4729435#)
+
+{% include video-embed.html src="/files/r2rd.mp4?v=2" poster="/files/r2rd-poster.png" start="5" caption="R2-RD live regime-detection demo" %}
+

@@ -1,0 +1,27 @@
+<figure class="product-showcase {{ include.class }}">
+  <video
+    class="product-showcase__video"
+    {% if include.poster %}poster="{{ include.poster | relative_url }}"{% endif %}
+    {% if include.start %}data-start="{{ include.start }}"{% else %}loop{% endif %}
+    autoplay muted playsinline controls preload="metadata">
+    <source src="{{ include.src | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+    <a href="{{ include.src | relative_url }}">Download the video</a>.
+  </video>
+  {% if include.start %}
+  <script>
+    (function () {
+      var v = document.currentScript.previousElementSibling;
+      var start = parseFloat(v.getAttribute("data-start")) || 0;
+      var seek = function () { try { v.currentTime = start; } catch (e) {} };
+      v.addEventListener("loadedmetadata", seek);
+      // `loop` is omitted when a start time is set, so we loop manually
+      // back to the start point each time playback ends.
+      v.addEventListener("ended", function () { seek(); v.play(); });
+    })();
+  </script>
+  {% endif %}
+  {% if include.caption %}
+    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+  {% endif %}
+</figure>

@@ -11,6 +11,8 @@ redirect_from:
 
 I am a Ph.D. candidate at Olin Business School, Washington University in St. Louis. I'm fortunate to be advised by Prof. [Dennis Zhang](http://denniszhang.org/) and Prof. [Raphael Thomadsen](https://sites.wustl.edu/thomadsen/). I study how firms can make reliable decisions using modern machine learning and AI systems when the available data is noisy and high-dimensional.
 
+**I'm on the 2026-2027 job market!**
+
 ### Contacts
 * sikun [at] wustl [dot] edu
 * xusikun96 [at] gmail [dot] com
@@ -26,11 +28,14 @@ I am a Ph.D. candidate at Olin Business School, Washington University in St. Lou
 * **Shanghai Jiao Tong University** (2015-2019)
   * B.S. in Industrial Engineering
 
+## Job Market Papers
+* [*The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5930537), with Raphael Thomadsen and Dennis Zhang, submitted
+  * Accepted to SICS 2025
+* *SOTA or Luck? The Winner’s Curse in LLM Leaderboards*, with Raphael Thomadsen, Dennis Zhang, and Heng Zhang, submitted
+
 ## Working Papers
 * [*A Causal Approach to Representation Learning for Unstructured Data*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5309826), with Zhenling Jiang, Zhengling Qi, and Dennis Zhang, Major Revision in ***Management Science***
   * Accepted to 19th Annual Bass FORMS Conference (2025)
-* [*The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5930537), with Raphael Thomadsen and Dennis Zhang
-  * Accepted to SICS 2025
 
 
 ## Conference Proceedings
@@ -38,8 +43,9 @@ I am a Ph.D. candidate at Olin Business School, Washington University in St. Lou
 
 ## Work in Progress
 
-* *SOTA or Luck? The Winner’s Curse in LLM Leaderboards*, with Raphael Thomadsen, Dennis Zhang, and Heng Zhang
-
+* *From Prompts to Policies: Offline Policy Learning with Noisy Generative Implementation*
+* *Quality-Gated Interest Exploration in Online Personalized Recommendation*, with industry partners
+* *Generative Learning-to-Rank in Recommendation Systems*, with industry partners
 
 ## Conference Presentations
 * The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions

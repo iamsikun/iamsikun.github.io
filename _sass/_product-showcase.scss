@@ -1,0 +1,44 @@
+/* ==========================================================================
+   Product showcase — embedded demo video presented as a product card.
+   Used via {% include video-embed.html %}. Imported after _dark.scss so the
+   $dark-* variables are in scope.
+   ========================================================================== */
+
+.product-showcase {
+  max-width: 720px;
+  margin: 1.5em auto 2em;
+  padding: 0;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  background-color: #fff;
+
+  &__video {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 0;
+    border-radius: 8px 8px 0 0;
+    background-color: #0f1115; // matches the dark dashboard letterbox
+  }
+
+  figcaption {
+    margin: 0;
+    padding: 0.6em 1em 0.8em;
+    font-size: 0.8em;
+    text-align: center;
+    color: #6f777d;
+  }
+}
+
+/* Dark theme — keyed off [data-theme="dark"] on <html> (see _dark.scss). */
+[data-theme="dark"] .product-showcase {
+  border-color: $dark-border;
+  background-color: $dark-surface;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45);
+
+  figcaption {
+    color: $dark-text-muted;
+  }
+}
