@@ -1,3 +1,10 @@
+{%- comment -%}
+  `src`/`poster` are passed through as-is, so bump the manual `?v=N` marker
+  in the page's {% include %} when you swap a file. Versioning the large
+  video manually keeps it cached across unrelated deploys (on GitHub Pages
+  every build resets file mtimes, so auto-versioning a 13 MB file would
+  force a re-download on every push). The CSS is auto-versioned in head.html.
+{%- endcomment -%}
 <figure class="product-showcase {{ include.class }}">
   <video
     class="product-showcase__video"
