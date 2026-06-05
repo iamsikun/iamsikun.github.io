@@ -43,7 +43,7 @@ I am a Ph.D. candidate at Olin Business School, Washington University in St. Lou
 
 ## Work in Progress
 
-* *From Prompts to Policies: Offline Policy Learning with Noisy Generative Implementation*
+* *Policy Learning with Noncompliant AI Agents*, sole-authored
 * *Exploration Without Noise: Quality-Gated Learning in Platform Recommendations*, with industry partners
 * *Generative Learning-to-Rank in Recommendation Systems*, with industry partners
 
