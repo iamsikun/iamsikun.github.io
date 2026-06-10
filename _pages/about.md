@@ -29,12 +29,12 @@ I am a Ph.D. candidate at Olin Business School, Washington University in St. Lou
   * B.S. in Industrial Engineering
 
 ## Job Market Papers
-* [*The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5930537), Sikun Xu, Raphael Thomadsen and Dennis Zhang, submitted
+* [*The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5930537). **Sikun Xu**, Raphael Thomadsen and Dennis Zhang, submitted
   * Accepted to SICS 2025
-* *SOTA or Luck? The Winner’s Curse in LLM Leaderboards*, Sikun Xu, Raphael Thomadsen, Dennis Zhang, and Heng Zhang, submitted
+* *SOTA or Luck? The Winner’s Curse in LLM Leaderboards*, **Sikun Xu**, Raphael Thomadsen, Dennis Zhang, and Heng Zhang, submitted
 
 ## Working Papers
-* [*A Causal Approach to Representation Learning for Unstructured Data*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5309826), Sikun Xu, Zhenling Jiang, Zhengling Qi, and Dennis Zhang, Major Revision in ***Management Science***
+* [*A Causal Approach to Representation Learning for Unstructured Data*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5309826), **Sikun Xu**, Zhenling Jiang, Zhengling Qi, and Dennis Zhang, Major Revision in ***Management Science***
   * Accepted to 19th Annual Bass FORMS Conference (2025)
 
 
