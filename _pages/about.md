@@ -29,23 +29,17 @@ I am a Ph.D. candidate at Olin Business School, Washington University in St. Lou
   * B.S. in Industrial Engineering
 
 ## Job Market Papers
-* [*The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5930537). **Sikun Xu**, Raphael Thomadsen and Dennis Zhang, submitted
-  * Accepted to SICS 2025
-* *SOTA or Luck? The Winner’s Curse in LLM Leaderboards*, **Sikun Xu**, Raphael Thomadsen, Dennis Zhang, and Heng Zhang, submitted
+{% include research-paper-list.html papers=site.data.research.job_market_papers %}
 
 ## Working Papers
-* [*A Causal Approach to Representation Learning for Unstructured Data*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5309826), **Sikun Xu**, Zhenling Jiang, Zhengling Qi, and Dennis Zhang, Major Revision in ***Management Science***
-  * Accepted to 19th Annual Bass FORMS Conference (2025)
+{% include research-paper-list.html papers=site.data.research.working_papers %}
 
 
 ## Conference Proceedings
-1. **Sikun Xu**, Ruoyi Ma, Daniel K. Molzahn, Hassan Hijazi, and Cédric Josz. ["Verifying Global Optimality of Candidate Solutions to Polynomial Optimization Problems using a Determinant Relaxation Hierarchy."](https://ieeexplore.ieee.org/document/9683608) 60th IEEE Conference on Decision and Control (2021).
+{% include research-proceedings-list.html proceedings=site.data.research.conference_proceedings %}
 
 ## Work in Progress
-
-* *Policy Learning with Noncompliant AI Agents*, sole-authored
-* *Exploration Without Noise: Quality-Gated Learning in Platform Recommendations*, with industry partners
-* *Generative Learning-to-Rank in Recommendation Systems*, with industry partners
+{% include research-paper-list.html papers=site.data.research.work_in_progress %}
 
 ## Conference Presentations
 * The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions

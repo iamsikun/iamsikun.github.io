@@ -17,6 +17,6 @@
 
 <!-- For all browsers. `?v=` busts caches whenever the site is rebuilt so
      CSS changes show up without a manual hard-refresh. -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css?v={{ site.time | date: '%s' }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
 <meta http-equiv="cleartype" content="on">

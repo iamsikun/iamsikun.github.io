@@ -1,0 +1,38 @@
+{% assign papers = include.papers %}
+
+<ol class="paper-list">
+  {% for paper in papers %}
+    <li class="paper-entry">
+      <div class="paper-entry__title">
+        {{ paper.title }}
+      </div>
+      <div class="paper-entry__authors">{{ paper.authors_html }}</div>
+      {% if paper.status_html %}
+        <div class="paper-entry__status">{{ paper.status_html }}</div>
+      {% endif %}
+      {% if paper.url or paper.abstract %}
+        <div class="paper-entry__actions">
+          {% if paper.url %}
+            {% assign url_label = paper.url_type | default: "Paper" %}
+            {% unless paper.url_type %}
+              {% if paper.url contains "ssrn" %}
+                {% assign url_label = "SSRN" %}
+              {% elsif paper.url contains "ieee" %}
+                {% assign url_label = "IEEE" %}
+              {% endif %}
+            {% endunless %}
+            <a class="paper-action-button" href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ url_label }}</a>
+          {% endif %}
+          {% if paper.abstract %}
+            <details class="paper-abstract">
+              <summary class="paper-action-button">Abstract</summary>
+              <div class="paper-abstract__body">
+                {{ paper.abstract | markdownify }}
+              </div>
+            </details>
+          {% endif %}
+        </div>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ol>

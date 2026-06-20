@@ -1,0 +1,40 @@
+{% assign proceedings = include.proceedings %}
+
+<ol class="paper-list paper-list--proceedings">
+  {% for proceeding in proceedings %}
+    <li class="paper-entry">
+      <div class="paper-entry__title">
+        {{ proceeding.title }}
+      </div>
+      <div class="paper-entry__authors">{{ proceeding.authors_html }}</div>
+      {% if proceeding.venue_html or proceeding.year %}
+        <div class="paper-entry__status">
+          {% if proceeding.venue_html %}{{ proceeding.venue_html }}{% endif %}{% if proceeding.year %} ({{ proceeding.year }}).{% endif %}
+        </div>
+      {% endif %}
+      {% if proceeding.url or proceeding.abstract %}
+        <div class="paper-entry__actions">
+          {% if proceeding.url %}
+            {% assign url_label = proceeding.url_type | default: "Paper" %}
+            {% unless proceeding.url_type %}
+              {% if proceeding.url contains "ssrn" %}
+                {% assign url_label = "SSRN" %}
+              {% elsif proceeding.url contains "ieee" %}
+                {% assign url_label = "IEEE" %}
+              {% endif %}
+            {% endunless %}
+            <a class="paper-action-button" href="{{ proceeding.url }}" target="_blank" rel="noopener noreferrer">{{ url_label }}</a>
+          {% endif %}
+          {% if proceeding.abstract %}
+            <details class="paper-abstract">
+              <summary class="paper-action-button">Abstract</summary>
+              <div class="paper-abstract__body">
+                {{ proceeding.abstract | markdownify }}
+              </div>
+            </details>
+          {% endif %}
+        </div>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ol>

@@ -137,6 +137,32 @@ $dark-link-hover : #bfdbfe;
     border-left-color: $dark-border;
     color: $dark-text-muted;
   }
+  .paper-entry__authors,
+  .paper-entry__status {
+    color: $dark-text-muted;
+  }
+  .paper-entry::marker {
+    color: $dark-text-muted;
+  }
+  .paper-action-button,
+  .paper-abstract summary {
+    color: $dark-link;
+    background-color: transparent;
+    border-color: $dark-link;
+  }
+  .paper-action-button:hover,
+  .paper-action-button:focus,
+  .paper-abstract summary:hover,
+  .paper-abstract summary:focus {
+    color: $dark-bg;
+    background-color: $dark-link;
+    border-color: $dark-link;
+  }
+  .paper-abstract__body {
+    color: $dark-text;
+    background-color: $dark-surface;
+    border-left-color: $dark-link;
+  }
   hr { border-color: $dark-border; }
   table { color: $dark-text; }
   th { background-color: $dark-surface; border-color: $dark-border; color: $dark-text; }
