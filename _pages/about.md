@@ -42,7 +42,10 @@ I am a Ph.D. candidate at Olin Business School, Washington University in St. Lou
 {% include research-paper-list.html papers=site.data.research.work_in_progress %}
 
 ## Conference Presentations
+* SOTA or Luck? The Winner’s Curse in LLM Leaderboards
+    * 2026 Conference on Information Systems and Technology (San Francisco), Scheduled
 * The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions
+    * 2026 INFORMS Annual Meeting (San Francisco), Scheduled
     * 2025 INFORMS Annual Meeting (Atlanta)
     * 2025 INFORMS Marketing Science Conference (Washington, D.C.)
     * 2024 Conference on Artificial Intelligence, Machine Learning, and Business Analytics (Yale)
@@ -82,8 +85,9 @@ Washington University in St. Louis
 * SCOT558 Advanced Operations Strategy; FL2023
 * SCOT356 Operations and Manufacturing Management; FL2024
 * MGT680E AI & Machine Learning Business Applications; FL2024
+* SCOT5505 Generative AI; FL2026
 
 
 ## Academic Services
   * Session Chair at INFORMS Annual Meeting (2024)
-  * Reviewer for *Journal of Investment Strategies*
+  * Reviewer for *Journal of Investment Strategies*, *Conference on Information Systems and Technology (CIST)*
