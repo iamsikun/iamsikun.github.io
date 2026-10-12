@@ -33,7 +33,7 @@ conference_proceedings:
   - id: optimal-real-data-allocation
     title: "Optimal Real-Data Allocation for Synthetic-Data-Augmented Inference."
     authors_html: "<strong>Sikun Xu</strong>, Zineng Xu, and Mingduo Zhao"
-    venue_html: "Advances in Neural Information Processing Systems (NeurIPS 2026)"
+    venue_html: "Advances in Neural Information Processing Systems (NeurIPS 2026). Forthcoming."
 
   - id: polynomial-optimality-determinant-relaxation
     title: "Verifying Global Optimality of Candidate Solutions to Polynomial Optimization Problems using a Determinant Relaxation Hierarchy."
