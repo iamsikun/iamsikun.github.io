@@ -30,25 +30,18 @@ working_papers:
       The increasing availability of unstructured data (e.g., images) in business and economics research has created new opportunities to control for confounders. A common approach is embedding-then-inference, where unstructured data is compressed into low-dimensional embeddings and incorporated into causal models. However, we show that this method can introduce significant bias because representation learning models optimized for reconstruction may miss relevant confounders. To address this, we propose causal embeddings, which explicitly align the objective of representation learning with the causal task by jointly predicting both treatment and outcome variables. This approach captures confounding information while maintaining low-dimensional efficiency and accommodates various embedding methods, including fine-tuned pretrained models. Simulations demonstrate that causal embeddings outperform both embedding-then-inference and direct adjustment with double machine learning (DML) in subsequent causal inference tasks. A real-world application further highlights the practical importance of properly accounting for unstructured data in causal models.
 
 conference_proceedings:
+  - id: optimal-real-data-allocation
+    title: "Optimal Real-Data Allocation for Synthetic-Data-Augmented Inference."
+    authors_html: "<strong>Sikun Xu</strong>, Zineng Xu, and Mingduo Zhao"
+    venue_html: "Advances in Neural Information Processing Systems (NeurIPS 2026)"
+
   - id: polynomial-optimality-determinant-relaxation
     title: "Verifying Global Optimality of Candidate Solutions to Polynomial Optimization Problems using a Determinant Relaxation Hierarchy."
     url: "https://ieeexplore.ieee.org/document/9683608"
     url_type: "IEEE"
     authors_html: "<strong>Sikun Xu</strong>, Ruoyi Ma, Daniel K. Molzahn, Hassan Hijazi, and Cédric Josz"
-    venue_html: "60th IEEE Conference on Decision and Control"
-    year: 2021
+    venue_html: "60th IEEE Conference on Decision and Control (CDC 2021)"
     abstract: |
       We propose an approach for verifying that a given feasible point for a polynomial optimization problem is globally optimal. The approach relies on the Lasserre hierarchy and the result of Lasserre regarding the importance of the convexity of the feasible set as opposed to that of the individual constraints. By focusing solely on certifying global optimality and relaxing the Lasserre hierarchy using necessary conditions for positive semidefiniteness based on matrix determinants, the proposed method is implementable as a computationally tractable linear program. We demonstrate this method via application to several instances of polynomial optimization, including the optimal power flow problem used to operate electric power systems.
 
-work_in_progress:
-  - id: policy-learning-noncompliant-ai-agents
-    title: "Policy Learning with Noncompliant AI Agents"
-    authors_html: "<strong>Sikun Xu</strong>"
-
-  - id: exploration-without-noise
-    title: "Exploration Without Noise: Quality-Gated Learning in Platform Recommendations"
-    authors_html: "<strong>Sikun Xu</strong>, with industry partners"
-
-  - id: generative-learning-to-rank
-    title: "Generative Learning-to-Rank in Recommendation Systems"
-    authors_html: "<strong>Sikun Xu</strong>, with industry partners"
+work_in_progress: []

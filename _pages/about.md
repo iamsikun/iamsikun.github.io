@@ -38,8 +38,10 @@ I am a Ph.D. candidate at Olin Business School, Washington University in St. Lou
 ## Conference Proceedings
 {% include research-proceedings-list.html proceedings=site.data.research.conference_proceedings %}
 
+{% comment %}
 ## Work in Progress
 {% include research-paper-list.html papers=site.data.research.work_in_progress %}
+{% endcomment %}
 
 ## Conference Presentations
 * SOTA or Luck? The Winner’s Curse in LLM Leaderboards
