@@ -1,6 +1,7 @@
 ---
 permalink: /miscellaneous/
 title: "Miscellaneous"
+hide_title: true
 excerpt: "Conference presentations, teaching, and academic services"
 author_profile: true
 ---

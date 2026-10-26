@@ -59,6 +59,11 @@
     font-size: 1em;
   }
 
+  /* no page title above, so align the first heading with the sidebar */
+  &--no-title > :first-child {
+    margin-top: 0;
+  }
+
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
