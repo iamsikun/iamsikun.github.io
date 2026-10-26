@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Sikun Xu"
+hide_title: true
 excerpt: "About me"
 author_profile: true
 redirect_from: 
