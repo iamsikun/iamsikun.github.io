@@ -1,7 +1,15 @@
 # Structured research content used by the website.
 # This file is intended to be reusable by future chatbot/context generation.
 
-job_market_papers:
+working_papers:
+  - id: causal-representation-learning
+    title: "A Causal Approach to Representation Learning for Unstructured Data"
+    url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5309826"
+    url_type: "SSRN"
+    authors_html: "<strong>Sikun Xu</strong>, Zhenling Jiang, Zhengling Qi, and Dennis Zhang"
+    status_html: "Major revision at <strong><em>Management Science</em></strong>. Accepted to 19th Annual Bass FORMS Conference (2025)."
+    abstract: |
+      The increasing availability of unstructured data (e.g., images) in business and economics research has created new opportunities to control for confounders. A common approach is embedding-then-inference, where unstructured data is compressed into low-dimensional embeddings and incorporated into causal models. However, we show that this method can introduce significant bias because representation learning models optimized for reconstruction may miss relevant confounders. To address this, we propose causal embeddings, which explicitly align the objective of representation learning with the causal task by jointly predicting both treatment and outcome variables. This approach captures confounding information while maintaining low-dimensional efficiency and accommodates various embedding methods, including fine-tuned pretrained models. Simulations demonstrate that causal embeddings outperform both embedding-then-inference and direct adjustment with double machine learning (DML) in subsequent causal inference tasks. A real-world application further highlights the practical importance of properly accounting for unstructured data in causal models.
   - id: winners-curse-data-driven-decision-making
     title: "The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions"
     url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5930537"
@@ -19,21 +27,14 @@ job_market_papers:
     abstract: |
       Public LLM leaderboards are now central to how models are evaluated, compared, and publicized, yet we show that the reported performance of top-ranked models can be systematically overstated. The reason is a leaderboard winner's curse (WC): benchmark scores are noisy averages over finite task sets, so ranking models in the decreasing order of scores rewards sampling luck alongside genuine ability. This overstatement is large enough to make the apparent winner statistically fragile: across four out of the five SWE-bench variants we study, the published rank 1 model has less than a 50% bootstrap probability of remaining rank 1 under task resampling. We develop an $m$-out-of-$N$ task bootstrap for iid benchmark tasks while allowing arbitrary within-task correlation among models. We prove that the worst-case rank-induced bias (WC as a special case for the first rank) is $\Theta(1/\sqrt{N})$ in the number of tasks $N$, and that our correction reduces it to $o(1/\sqrt{N})$. We also introduce a rank probability matrix that replaces a single deterministic ranking with a distribution over plausible rankings. Empirically, rank-1 inflation reaches 1--3 percentage points across eight benchmark settings spanning code generation and agentic customer service. On SWE-bench Verified, selection bias explains 47% of the winner's apparent top-five lead, and the top 28 models are statistically indistinguishable at the 5% level. Our results suggest that benchmark designers should either enlarge the task pools substantially to suppress the WC or report bias-corrected scores and ranking uncertainty alongside raw rankings.
 
-working_papers:
-  - id: causal-representation-learning
-    title: "A Causal Approach to Representation Learning for Unstructured Data"
-    url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5309826"
-    url_type: "SSRN"
-    authors_html: "<strong>Sikun Xu</strong>, Zhenling Jiang, Zhengling Qi, and Dennis Zhang"
-    status_html: "Major revision at <strong><em>Management Science</em></strong>. Accepted to 19th Annual Bass FORMS Conference (2025)."
-    abstract: |
-      The increasing availability of unstructured data (e.g., images) in business and economics research has created new opportunities to control for confounders. A common approach is embedding-then-inference, where unstructured data is compressed into low-dimensional embeddings and incorporated into causal models. However, we show that this method can introduce significant bias because representation learning models optimized for reconstruction may miss relevant confounders. To address this, we propose causal embeddings, which explicitly align the objective of representation learning with the causal task by jointly predicting both treatment and outcome variables. This approach captures confounding information while maintaining low-dimensional efficiency and accommodates various embedding methods, including fine-tuned pretrained models. Simulations demonstrate that causal embeddings outperform both embedding-then-inference and direct adjustment with double machine learning (DML) in subsequent causal inference tasks. A real-world application further highlights the practical importance of properly accounting for unstructured data in causal models.
 
 conference_proceedings:
   - id: optimal-real-data-allocation
     title: "Optimal Real-Data Allocation for Synthetic-Data-Augmented Inference."
     authors_html: "<strong>Sikun Xu</strong>, Zineng Xu, and Mingduo Zhao"
     venue_html: "Advances in Neural Information Processing Systems (NeurIPS 2026). Forthcoming."
+    abstract: |
+      Generative models have made synthetic data inexpensive, but generated observations can still be biased. When real data are scarce, researchers must decide how much of the real sample to use for direct estimation and how much to devote to calibrating the generator. We study this allocation problem by jointly choosing the calibration size and the weight assigned to real and synthetic estimates to minimize mean squared error (MSE). Our model separates calibration error from synthetic sampling noise and yields a marginal-value condition: at an interior optimum, the precision gained from one additional calibration observation equals the precision lost from direct estimation. A six-case phase diagram characterizes how the optimal allocation depends on how quickly calibration improves the generator and how synthetic sample size grows with the real-data budget. When synthetic sample size grows proportionally with the real-data budget $n$ and mean squared calibration error decays as $x^{-2\beta}$, where $x$ is the calibration size and $\beta>1/2$, the oracle calibration size grows at rate $n^{2/(2\beta+1)}$. Thus, the optimal calibration share vanishes, yet the oracle achieves a smaller leading MSE constant than real-only estimation. In contrast, rules that allocate a fixed positive fraction to calibration eventually over-calibrate. We also propose a pilot-based grid selector and show that its selected allocation asymptotically attains the lowest working risk among grid candidates when relative risk-estimation error vanishes uniformly. In a representative Gaussian simulation, the oracle reduces MSE by about 47\% relative to real-only estimation, compared with about 22\% for a fixed-share heuristic.
 
   - id: polynomial-optimality-determinant-relaxation
     title: "Verifying Global Optimality of Candidate Solutions to Polynomial Optimization Problems using a Determinant Relaxation Hierarchy."

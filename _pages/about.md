@@ -11,8 +11,6 @@ redirect_from:
 
 I am a Ph.D. candidate at Olin Business School, Washington University in St. Louis. I'm fortunate to be advised by Prof. [Dennis Zhang](http://denniszhang.org/) and Prof. [Raphael Thomadsen](https://sites.wustl.edu/thomadsen/). I study how firms can make reliable decisions using modern machine learning and AI systems when the available data is noisy and high-dimensional.
 
-**I'm on the 2026-2027 job market!**
-
 ### Contacts
 * sikun [at] wustl [dot] edu
 * xusikun96 [at] gmail [dot] com
@@ -27,9 +25,6 @@ I am a Ph.D. candidate at Olin Business School, Washington University in St. Lou
   * Data Science Institute Scholar
 * **Shanghai Jiao Tong University** (2015-2019)
   * B.S. in Industrial Engineering
-
-## Job Market Papers
-{% include research-paper-list.html papers=site.data.research.job_market_papers %}
 
 ## Working Papers
 {% include research-paper-list.html papers=site.data.research.working_papers %}
