@@ -1,0 +1,215 @@
+# Source of truth for the website chatbot.
+# Edit this file, then regenerate assets/chat-context.json:
+#   uv run python markdown_generator/chat_context.py
+# The Worker fetches the regenerated JSON on its next cold start.
+#
+# Fields marked TODO are blank slots Sikun should fill in — the bot still
+# works without them, but they noticeably improve answer quality.
+
+bio:
+  name: "Sikun Xu"
+  pronouns: "she/her"
+  role: "Ph.D. Candidate, Olin Business School, Washington University in St. Louis"
+  advisors:
+    - name: "Dennis Zhang"
+      url: "http://denniszhang.org/"
+    - name: "Raphael Thomadsen"
+      url: "https://sites.wustl.edu/thomadsen/"
+  dissertation: "Data-Driven Business Decision-Making with Causal Inference and Machine Learning"
+  contacts:
+    - "sikun [at] wustl [dot] edu"
+    - "xusikun96 [at] gmail [dot] com"
+  website: "https://iamsikun.github.io"
+
+# 150–250 word narrative the bot leans on for "what does Sikun work on?"
+# Drafted from about.md + CV. SIKUN — edit this in your own voice.
+research_narrative: |
+  Sikun studies how firms can make reliable decisions using modern machine
+  learning and AI systems when the available data is noisy, high-dimensional,
+  or hard to interpret directly. Her work sits at the intersection of three
+  threads: causal inference (so that the decisions firms make are driven by
+  what actually moves outcomes, not artifacts of selection or measurement),
+  machine learning on unstructured data (text, images, embeddings — the kind
+  of data that powers modern business systems but resists classical
+  econometric tools), and the statistical pitfalls of data-driven decision
+  pipelines themselves (where the act of choosing the best-looking policy
+  systematically biases what you think you've learned).
+
+  Her current papers develop methods for two specific versions of this
+  problem. The first builds a causal framework for using learned
+  representations of unstructured data as inputs to marketing and operations
+  decisions — moving beyond predictive accuracy to ask whether the
+  representations capture features that *cause* the outcome. The second
+  characterizes a "winner's curse" in data-driven decision-making: when
+  managers select among many candidate policies based on estimated
+  performance, the chosen winner is systematically overstated in expectation,
+  and she develops corrections that recover honest estimates.
+
+  Methodologically, Sikun draws on causal inference, deep learning, and
+  high-dimensional statistics. Substantively, she applies these tools to
+  quantitative marketing and quantitative finance.
+
+# Research interests for the bot to surface in short-form answers.
+research_interests:
+  methodology:
+    - "Machine learning and AI systems"
+    - "Causal inference"
+    - "Data-driven decision-making"
+    - "High-dimensional statistics"
+  application:
+    - "Quantitative marketing"
+    - "Quantitative finance"
+    - "Operations management"
+
+papers:
+  - id: causal-repr-learning
+    title: "A Causal Approach to Representation Learning for Unstructured Data"
+    status: "Major revision at Management Science"
+    coauthors:
+      - "Zhenling Jiang"
+      - "Zhengling Qi"
+      - "Dennis Zhang"
+    venues_accepted:
+      - "19th Annual Bass FORMS Conference (2025)"
+    link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5309826"
+    # TODO Sikun: paste the SSRN abstract here (2–4 sentences).
+    abstract: ""
+    # TODO Sikun (optional but helpful): 2–3 bullet takeaways the bot can
+    # cite when someone asks "tell me more about that paper."
+    key_findings: []
+
+  - id: winners-curse
+    title: "The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions"
+    status: "Working paper, submitted"
+    coauthors:
+      - "Raphael Thomadsen"
+      - "Dennis Zhang"
+    venues_accepted:
+      - "SICS 2025"
+    link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5930537"
+    abstract: ""  # TODO Sikun: paste abstract from SSRN
+    key_findings: []  # TODO optional
+
+  - id: polynomial-optimality
+    title: "Verifying Global Optimality of Candidate Solutions to Polynomial Optimization Problems Using a Determinant Relaxation Hierarchy"
+    status: "Published"
+    coauthors:
+      - "Ruoyi Ma"
+      - "Daniel K. Molzahn"
+      - "Hassan Hijazi"
+      - "Cédric Josz"
+    venue: "60th IEEE Conference on Decision and Control (CDC), 2021, pp. 3143–3148"
+    year: 2021
+    link: "https://ieeexplore.ieee.org/document/9683608"
+    abstract: ""  # TODO optional — IEEE link has the abstract
+    key_findings: []
+
+  - id: llm-leaderboard-curse
+    title: "SOTA or Luck? The Winner's Curse in LLM Leaderboards"
+    status: "Work in progress"
+    coauthors:
+      - "Heng Zhang"
+      - "Raphael Thomadsen"
+      - "Dennis Zhang"
+    link: ""  # not yet posted
+    abstract: ""  # TODO Sikun: one or two sentences on the idea
+    key_findings: []
+
+education:
+  - school: "Washington University in St. Louis"
+    program: "Ph.D. Candidate, Olin Business School"
+    years: "2021–Present"
+  - school: "Columbia University"
+    program: "M.S. in Operations Research; Data Science Institute Scholar"
+    years: "2019–2020"
+  - school: "Shanghai Jiao Tong University"
+    program: "B.S. in Industrial Engineering"
+    years: "2015–2019"
+
+industry_experience:
+  - org: "TikTok Inc."
+    role: "Machine Learning Scientist Intern"
+    location: "San Jose, CA"
+    years: "2026–Present"
+  - org: "Ask2.AI"
+    role: "Co-founder and Consultant"
+    location: "New York, NY"
+    years: "2022–Present"
+  - org: "Sauma Capital LLC"
+    role: "Quantitative Researcher"
+    location: "New York, NY"
+    years: "2021"
+  - org: "Capstone Investment Advisors"
+    role: "Investment Intern"
+    location: "New York, NY"
+    years: "2020"
+  - org: "Cardinal Operations"
+    role: "Algorithm Engineer Intern"
+    location: "Shanghai"
+    years: "2018"
+
+teaching:
+  guest_lectures:
+    - "MGT 680E AI & Machine Learning Business Applications, WashU (Fall 2024)"
+    - "IEOR 4721 AI Application in Finance, Columbia (Spring 2022)"
+    - "IEOR 4721 AI Application in Finance, Columbia (Summer 2021)"
+  ta_courses_washu:
+    - "MGT 680E AI & Machine Learning Business Applications"
+    - "SCOT 519E Revenue Management"
+    - "SCOT 500M Supply Chain Analytics: Stochastic Models"
+    - "SCOT 558 Advanced Operations Strategy"
+    - "SCOT 5704 Operations Management"
+    - "SCOT 356 Operations and Manufacturing Management"
+    - "SCOT 400D Supply Chain Management"
+    - "SCOT 500D Project Management"
+  ta_courses_columbia:
+    - "IEOR 4742 Deep Learning"
+    - "IEOR 4525 Machine Learning"
+
+conference_presentations:
+  - paper: "winners-curse"
+    venues:
+      - "2025 INFORMS Annual Meeting (Atlanta)"
+      - "2025 ISMS Marketing Science Conference (Washington, D.C.)"
+      - "2024 Conference on AI, ML, and Business Analytics (Yale)"
+  - paper: "causal-repr-learning"
+    venues:
+      - "2025 ISMS Marketing Science Conference (Washington, D.C.)"
+      - "2024 INFORMS Annual Meeting (Seattle) — Session Chair"
+      - "2024 POMS Annual Conference (Minneapolis)"
+      - "2023 INFORMS Annual Meeting (Phoenix)"
+  - paper: "data-driven-security"
+    title_if_no_paper: "Data-Driven Security Selection for Wealth Management"
+    venues:
+      - "2023 POMS Annual Conference (Orlando)"
+      - "2022 INFORMS Annual Meeting (Indianapolis)"
+  - paper: "polynomial-optimality"
+    venues:
+      - "2021 INFORMS Annual Meeting (Virtual / Anaheim)"
+
+academic_services:
+  - "Reviewer, Journal of Investment Strategies"
+  - "Session Chair, INFORMS Annual Meeting (2024)"
+
+# Optional — bot uses these if present. Leave empty to skip.
+job_market:
+  status: ""        # e.g. "On the 2026–27 academic job market"
+  seeking: ""       # e.g. "Tenure-track positions in quantitative marketing or operations"
+  contact_for: ""   # e.g. "Reach out at sikun@wustl.edu"
+
+# Optional — adds a touch of personality. One-liners only.
+fun_facts: []
+# Examples (delete the [] above and uncomment to use):
+#   - "Coffee snob — always looking for the next pour-over recommendation."
+#   - "Reads more sci-fi than is reasonable for someone with a dissertation deadline."
+
+# How the bot should behave when asked things it can't ground.
+guardrails:
+  off_topic_redirect: |
+    Politely note that you focus on Sikun's research, publications, teaching,
+    and academic background, and suggest a related question they could ask
+    instead.
+  uncertainty_phrase: |
+    If you're not sure or the answer isn't in the provided context, say so
+    directly rather than guessing. Suggest emailing sikun [at] wustl [dot] edu
+    for the authoritative answer.
