@@ -8,9 +8,9 @@ author_profile: true
 
 ## Conference Presentations
 * SOTA or Luck? The Winner’s Curse in LLM Leaderboards
-    * 2026 Conference on Information Systems and Technology (San Francisco), Scheduled
+    * 2026 Conference on Information Systems and Technology (San Francisco)
 * The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions
-    * 2026 INFORMS Annual Meeting (San Francisco), Scheduled
+    * 2026 INFORMS Annual Meeting (San Francisco)
     * 2025 INFORMS Annual Meeting (Atlanta)
     * 2025 INFORMS Marketing Science Conference (Washington, D.C.)
     * 2024 Conference on Artificial Intelligence, Machine Learning, and Business Analytics (Yale)
