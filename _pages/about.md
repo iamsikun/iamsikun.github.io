@@ -11,7 +11,7 @@ redirect_from:
 ---
 
 
-I am a Ph.D. candidate at Olin Business School, Washington University in St. Louis. I'm fortunate to be advised by Prof. [Dennis Zhang](http://denniszhang.org/) and Prof. [Raphael Thomadsen](https://sites.wustl.edu/thomadsen/). I study how firms can make reliable decisions using modern machine learning and AI systems when the available data is noisy and high-dimensional. You can find my CV [here](/files/CV.pdf).
+I am a Ph.D. candidate at Olin Business School, Washington University in St. Louis. I'm fortunate to be advised by Prof. [Dennis Zhang](http://denniszhang.org/) and Prof. [Raphael Thomadsen](https://sites.wustl.edu/thomadsen/). I study how firms can make reliable decisions using modern machine learning and AI systems when the available data is noisy and high-dimensional.
 
 ### Contacts
 * sikun [at] wustl [dot] edu
@@ -40,7 +40,7 @@ I am a Ph.D. candidate at Olin Business School, Washington University in St. Lou
 
 ## Industry Experience
 * [TikTok Inc.](https://www.tiktok.com/about?lang=en), Machine Learning Scientist Intern, March 2026 - August 2026
-  * I build recommendation algorithms for the TikTok ForU page
+  * Built recommendation algorithms for the TikTok ForU page
 * [Sauma Capital LLC.](https://www.linkedin.com/company/sauma-capital-llc), Quantitative Researcher, May. 2021 - Aug. 2021
 * [Capstone Investment Advisors](https://www.capstoneco.com/), Investment Intern, May. 2020 - May. 2021
 * [Cardinal Operations (杉数科技)](https://www.shanshu.ai/), Algorithm Engineer Intern,  Jun. 2018 - May. 2019
