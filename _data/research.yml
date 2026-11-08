@@ -23,6 +23,8 @@ working_papers:
 conference_proceedings:
   - id: optimal-real-data-allocation
     title: "Optimal Real Data Allocation for Synthetic Data Augmented Inference."
+    url: "https://neurips.cc/virtual/2026/loc/atlanta/poster/148327"
+    url_type: "NeurIPS"
     authors_html: "<strong>Sikun Xu</strong>, Zineng Xu, and Mingduo Zhao"
     venue_html: "Advances in Neural Information Processing Systems (NeurIPS 2026). Forthcoming."
     abstract: |
