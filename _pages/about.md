@@ -28,15 +28,20 @@ I am a Ph.D. candidate at Olin Business School, Washington University in St. Lou
 * **Shanghai Jiao Tong University** (2015-2019)
   * B.S. in Industrial Engineering
 
+{% if site.data.research.working_papers.size > 0 %}
 ## Working Papers
 {% include research-paper-list.html papers=site.data.research.working_papers %}
+{% endif %}
 
-
+{% if site.data.research.conference_proceedings.size > 0 %}
 ## Conference Proceedings
 {% include research-proceedings-list.html proceedings=site.data.research.conference_proceedings %}
+{% endif %}
 
+{% if site.data.research.work_in_progress.size > 0 %}
 ## Work in Progress
 {% include research-paper-list.html papers=site.data.research.work_in_progress %}
+{% endif %}
 
 ## Industry Experience
 * [TikTok Inc.](https://www.tiktok.com/about?lang=en), Machine Learning Scientist Intern, March 2026 - August 2026
