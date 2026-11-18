@@ -3,6 +3,7 @@
 
 working_papers:
   - id: causal-representation-learning
+    slug: causal-representation
     title: "A Causal Approach to Representation Learning for Unstructured Data"
     url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5309826"
     url_type: "SSRN"
@@ -11,6 +12,7 @@ working_papers:
     abstract: |
       The increasing availability of unstructured data (e.g., images) in business and economics research has created new opportunities to control for confounders. A common approach is embedding-then-inference, where unstructured data is compressed into low-dimensional embeddings and incorporated into causal models. However, we show that this method can introduce significant bias because representation learning models optimized for reconstruction may miss relevant confounders. To address this, we propose causal embeddings, which explicitly align the objective of representation learning with the causal task by jointly predicting both treatment and outcome variables. This approach captures confounding information while maintaining low-dimensional efficiency and accommodates various embedding methods, including fine-tuned pretrained models. Simulations demonstrate that causal embeddings outperform both embedding-then-inference and direct adjustment with double machine learning (DML) in subsequent causal inference tasks. A real-world application further highlights the practical importance of properly accounting for unstructured data in causal models.
   - id: winners-curse-data-driven-decision-making
+    slug: winners-curse
     title: "The Winner's Curse in Data-Driven Decision-Making: Evidence and Solutions"
     url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5930537"
     url_type: "SSRN"
@@ -20,6 +22,7 @@ working_papers:
       Data-driven decision making involves estimating the value of each potential option and selecting the one with the highest estimated efficacy.
       This approach underpins a wide array of modern marketing, operations, and AI applications, including A/B testing, advertising and bidding, pricing, and personalized targeting. However, several papers have shown that the estimated effectiveness of the chosen options will be systematically over-optimistic (Smith and Winkler 2006, Efron 2011, Andrews et al. 2024), even when the estimated outcomes are themselves unbiased and efficient. Using simulations calibrated to realistic parameter values from recent marketing studies, we first demonstrate that the magnitude of the winner's curse is often high in relevant marketing contexts, and that the severity of the winner's curse depends on the true performance difference between options relative to the level of noise in the data, the number of alternatives under consideration, and the number of observations per tested condition. We further show that using machine learning methods to evaluate what treatment to give to individual consumers can lead to extremely high levels of winner's curse, especially if the machine learning functional form is very flexible. We propose a correction method based on a non-continuous bootstrap, and benchmark our method against several existing proposed solutions across many common marketing scenarios. We demonstrate that our bootstrap approach generally performs well, and usually outperforms the solutions that have been previously proposed in the literature.
   - id: llm-leaderboard-winners-curse
+    slug: sota-or-luck
     title: "SOTA or Luck? The Winner’s Curse in LLM Leaderboards"
     url: "https://arxiv.org/abs/2611.22227"
     url_type: "arXiv"
@@ -32,6 +35,7 @@ working_papers:
 
 conference_proceedings:
   - id: optimal-real-data-allocation
+    slug: real-data-allocation
     title: "Optimal Real Data Allocation for Synthetic Data Augmented Inference."
     url: "https://neurips.cc/virtual/2026/loc/atlanta/poster/148327"
     url_type: "NeurIPS"
@@ -40,6 +44,7 @@ conference_proceedings:
     abstract: |
       Generative models have made synthetic data inexpensive, but generated observations can be biased. When real data are scarce and more costly, researchers must decide how much of the real sample to use for direct estimation and how much to devote to calibrating the generator. We study this allocation problem by jointly choosing the calibration size and the weight assigned to real and synthetic estimates to minimize mean squared error (MSE). Our model separates calibration error from synthetic sampling noise and yields a marginal value condition: at an interior optimum, the precision gained from one additional calibration observation equals the precision lost from direct estimation. A six case phase diagram characterizes how the optimal allocation depends on how quickly calibration improves the generator and how synthetic sample size grows with the real data budget. Suppose the synthetic sample grows in proportion to the budget for real data, $n$. Using $x$ real observations for calibration reduces the mean squared calibration error at rate $x^{-2\beta}$, where $\beta>1/2$. The oracle then chooses a calibration sample size that grows at rate $n^{2/(2\beta+1)}$. Thus, a larger budget calls for more calibration observations, but these observations make up a smaller share of the real sample. The optimal calibration share therefore vanishes, yet the oracle achieves a smaller leading MSE constant than real-only estimation. In contrast, rules that allocate a fixed positive fraction to calibration eventually over calibrate. We also propose a pilot based grid selector and show that its selected allocation asymptotically attains the lowest working risk among grid candidates when relative risk estimation error vanishes uniformly. In a representative Gaussian simulation, the oracle reduces MSE by about 47\% relative to real-only estimation, compared with about 22\% for a fixed share heuristic.
   - id: polynomial-optimality-determinant-relaxation
+    slug: determinant-relaxation
     title: "Verifying Global Optimality of Candidate Solutions to Polynomial Optimization Problems using a Determinant Relaxation Hierarchy."
     url: "https://ieeexplore.ieee.org/document/9683608"
     url_type: "IEEE"

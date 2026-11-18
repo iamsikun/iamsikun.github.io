@@ -3,6 +3,7 @@
 <ol class="paper-list">
   {% for paper in papers %}
     <li class="paper-entry">
+      {% assign paper_slug = paper.slug | default: paper.id %}
       <div class="paper-entry__title">
         {{ paper.title }}
       </div>
@@ -21,10 +22,10 @@
                 {% assign url_label = "IEEE" %}
               {% endif %}
             {% endunless %}
-            <a class="paper-action-button" href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ url_label }}</a>
+            <a class="paper-action-button" href="{{ paper.url }}" target="_blank" rel="noopener noreferrer" data-goatcounter-click="paper/{{ paper_slug }}/{{ url_label | slugify }}" data-goatcounter-title="{{ paper.title | strip_html | escape }} ({{ url_label }})">{{ url_label }}</a>
           {% endif %}
           {% for link in paper.links %}
-            <a class="paper-action-button" href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
+            <a class="paper-action-button" href="{{ link.url }}" target="_blank" rel="noopener noreferrer" data-goatcounter-click="paper/{{ paper_slug }}/{{ link.label | slugify }}" data-goatcounter-title="{{ paper.title | strip_html | escape }} ({{ link.label }})">{{ link.label }}</a>
           {% endfor %}
           {% if paper.abstract %}
             <details class="paper-abstract">
