@@ -23,6 +23,9 @@ working_papers:
     title: "SOTA or Luck? The Winner’s Curse in LLM Leaderboards"
     url: "https://arxiv.org/abs/2611.22227"
     url_type: "arXiv"
+    links:
+      - label: "Website"
+        url: "https://sikunxu.com/llm-wc/"
     authors_html: "<strong>Sikun Xu</strong>, Raphael Thomadsen, Dennis Zhang, and Heng Zhang"
     abstract: |
       Public LLM leaderboards are now central to how models are evaluated, compared, and publicized, yet we show that the reported performance of top-ranked models can be systematically overstated. The reason is a leaderboard winner's curse (WC): benchmark scores are noisy averages over finite task sets, so ranking models in the decreasing order of scores rewards sampling luck alongside genuine ability. This overstatement is large enough to make the apparent winner statistically fragile: across four out of the five SWE-bench variants we study, the published rank 1 model has less than a 50% bootstrap probability of remaining rank 1 under task resampling. We develop an $m$-out-of-$N$ task bootstrap for iid benchmark tasks while allowing arbitrary within-task correlation among models. We prove that the worst-case rank-induced bias (WC as a special case for the first rank) is $\Theta(1/\sqrt{N})$ in the number of tasks $N$, and that our correction reduces it to $o(1/\sqrt{N})$. We also introduce a rank probability matrix that replaces a single deterministic ranking with a distribution over plausible rankings. Empirically, rank-1 inflation reaches 1--3 percentage points across eight benchmark settings spanning code generation and agentic customer service. On SWE-bench Verified, selection bias explains 47% of the winner's apparent top-five lead, and the top 28 models are statistically indistinguishable at the 5% level. Our results suggest that benchmark designers should either enlarge the task pools substantially to suppress the WC or report bias-corrected scores and ranking uncertainty alongside raw rankings.

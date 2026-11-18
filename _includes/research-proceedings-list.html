@@ -12,7 +12,7 @@
           {% if proceeding.venue_html %}{{ proceeding.venue_html }}{% endif %}{% if proceeding.year %} ({{ proceeding.year }}).{% endif %}
         </div>
       {% endif %}
-      {% if proceeding.url or proceeding.abstract %}
+      {% if proceeding.url or proceeding.links or proceeding.abstract %}
         <div class="paper-entry__actions">
           {% if proceeding.url %}
             {% assign url_label = proceeding.url_type | default: "Paper" %}
@@ -25,6 +25,9 @@
             {% endunless %}
             <a class="paper-action-button" href="{{ proceeding.url }}" target="_blank" rel="noopener noreferrer">{{ url_label }}</a>
           {% endif %}
+          {% for link in proceeding.links %}
+            <a class="paper-action-button" href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
+          {% endfor %}
           {% if proceeding.abstract %}
             <details class="paper-abstract">
               <summary class="paper-action-button">Abstract</summary>

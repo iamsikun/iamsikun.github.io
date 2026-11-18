@@ -10,7 +10,7 @@
       {% if paper.status_html %}
         <div class="paper-entry__status">{{ paper.status_html }}</div>
       {% endif %}
-      {% if paper.url or paper.abstract %}
+      {% if paper.url or paper.links or paper.abstract %}
         <div class="paper-entry__actions">
           {% if paper.url %}
             {% assign url_label = paper.url_type | default: "Paper" %}
@@ -23,6 +23,9 @@
             {% endunless %}
             <a class="paper-action-button" href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ url_label }}</a>
           {% endif %}
+          {% for link in paper.links %}
+            <a class="paper-action-button" href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
+          {% endfor %}
           {% if paper.abstract %}
             <details class="paper-abstract">
               <summary class="paper-action-button">Abstract</summary>
